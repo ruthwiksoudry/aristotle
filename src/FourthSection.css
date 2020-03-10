@@ -1,0 +1,107 @@
+.fourth-section-container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.fourth-top-half {
+  display: flex;
+  position: relative;
+  height: 100vh;
+}
+
+.fourth-top-right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.fourth-heading {
+  font-size: 30px;
+  align-self: center;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: midnightblue;
+}
+
+.fourth-content {
+  font-size: 20px;
+  align-self: center;
+  text-align: left;
+  margin-bottom: 30px;
+  color: midnightblue;
+}
+
+.fourth-top-left-part {
+  width: 60%;
+}
+
+.fourth-bottom-half {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.fourth-get-app-button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+
+.four-text-wrapper {
+  width: 40%;
+  align-self: center;
+  text-align: left;
+  padding-top: 60px;
+}
+
+.challenges {
+  font-size: 20px;
+  color: #ffcd65;
+  margin-bottom: 30px;
+}
+
+.sec-8-img {
+  top: 30px;
+  width: 500px;
+  position: absolute;
+  height: 500px;
+  left: 50px;
+}
+
+.challenge-img {
+  width: 80%;
+  height: 96%;
+  position: relative;
+}
+
+.sec-7-mask-img {
+  width: 650px;
+  top: 64px;
+  height: 570px;
+  left: 0;
+  float: left;
+  position: sticky;
+}
+
+.running-img {
+  position: absolute;
+  width: 450px;
+  right: 750px;
+  height: 450px;
+  top: 64px;
+}
+
+.pyramid-img {
+  width: 150px;
+  position: absolute;
+  height: 150px;
+  bottom: 72px;
+  left: 450px;
+}

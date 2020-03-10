@@ -1,0 +1,145 @@
+.second-section-container {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.two-top-half {
+  display: flex;
+  height: 100vh;
+}
+
+/* .two-top-left-part {
+  width: 55%;
+} */
+
+.two-top-right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 50%; */
+  text-align: left;
+  padding-right: 60px;
+}
+
+.revision {
+  font-size: 20px;
+  color: #1bb0f6;
+  margin-bottom: 30px;
+}
+
+.two-top-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: midnightblue;
+}
+
+.two-top-body {
+  font-size: 20px;
+  color: #1f1a52;
+}
+
+.two-bottom-half {
+  display: flex;
+  height: 100vh;
+}
+
+.two-bottom-left-part {
+  width: 55%;
+}
+
+.two-bottom-right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  text-align: left;
+  padding-right: 60px;
+}
+
+.two-bottom-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: midnightblue;
+}
+
+.two-bottom-body {
+  font-size: 20px;
+  color: #1f1a52;
+  margin-bottom: 30px;
+}
+
+.second-get-the-app {
+  background-color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: 43%;
+  text-align: center;
+}
+
+.two-text-wrapper {
+  width: 60%;
+  align-self: center;
+  text-align: left;
+  height: 75%;
+}
+
+.light-blue-mask-img {
+  width: 650px;
+  top: 64px;
+  height: 570px;
+  left: 0;
+  float: left;
+  position: sticky;
+}
+
+.bookshelf-img {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 10px;
+}
+
+.girl-sitting-img {
+  /* width: 85%;
+  height: 40%;
+  position: relative;
+  left: 5%;
+  top: 65%; */
+
+  width: 250px;
+  height: 250px;
+  right: 61%;
+  top: 380px;
+  position: sticky;
+  z-index: 10;
+}
+
+.phone-img {
+  width: 400px;
+  height: 450px;
+  left: 50px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.plant-img {
+  width: 13%;
+  height: 23%;
+  position: absolute;
+  left: 37%;
+  margin-top: 28%;
+}
+
+.sec-2-sticky-container {
+  width: 650px;
+  top: 64px;
+  height: 570px;
+  left: 0;
+  float: left;
+  position: sticky;
+}

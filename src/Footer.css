@@ -1,0 +1,28 @@
+.footer-contanier {
+  height: 90vh;
+}
+
+.footer-title {
+  font-size: 24px;
+  color: midnightblue;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+.footer-img {
+  width: 400px;
+  height: 340px;
+}
+
+.download-app {
+  font-size: 24px;
+  color: midnightblue;
+  margin: 25px 0 0 0;
+  font-weight: bold;
+}
+
+.play-store-img {
+  width: 15%;
+  height: 15%;
+  cursor: pointer;
+}

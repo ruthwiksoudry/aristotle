@@ -1,0 +1,117 @@
+.third-section-container {
+  width: 100%;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.third-top-half {
+  display: flex;
+  height: 100vh;
+  border-bottom: 1px solid white;
+}
+
+.third-top-left-part {
+  display: flex;
+  flex-direction: column;
+  /* width: 40%; */
+  justify-content: center;
+  color: white;
+}
+
+.third-heading {
+  font-size: 30px;
+  align-self: center;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #24236a;
+}
+
+.third-content {
+  font-size: 20px;
+  align-self: center;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #24236a;
+}
+
+.third-top-right-part {
+  width: 60%;
+}
+
+.third-bottom-half {
+  display: flex;
+  height: 100vh;
+  border-bottom: 1px solid white;
+}
+
+.third-get-app-button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+
+.two-text-wrapper {
+  width: 60%;
+  align-self: center;
+  text-align: left;
+}
+
+.question-forum {
+  font-size: 20px;
+  color: #61e8ea;
+  margin-bottom: 30px;
+}
+
+.kid-out-box-img {
+  /* width: 80%;
+  height: 80%;
+  align-self: center;
+  padding-top: 10%; */
+
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: 10px;
+}
+
+.hand-img {
+  width: 660px;
+  height: 670px;
+  right: 0;
+  position: absolute;
+}
+
+.sec-5-mask-img {
+  width: 650px;
+  top: 64px;
+  height: 570px;
+  right: 0;
+  float: right;
+  position: sticky;
+}
+
+.kid-in-box-img {
+  /* width: 80%;
+  height: 80%;
+  align-self: center;
+  padding-top: 15%; */
+
+  width: 560px;
+  height: 535px;
+  right: 0;
+  z-index: 9;
+  position: absolute;
+}
+
+.sec-5-img {
+  position: absolute;
+  width: 200px;
+  height: 140px;
+  top: 400px;
+  right: 480px;
+}

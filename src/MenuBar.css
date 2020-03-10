@@ -1,0 +1,25 @@
+.menubar-container {
+  position: fixed;
+  display: flex;
+  height: 64px;
+  padding: 0 40px;
+  align-items: center;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.11);
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+}
+
+.menubar-right {
+  display: flex;
+  cursor: pointer;
+}
+
+.get-the-app {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 17px;
+  padding-left: 50px;
+}
