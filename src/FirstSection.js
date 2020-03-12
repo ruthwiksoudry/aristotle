@@ -7,36 +7,6 @@ import BlueOneImg from "./assets/sec-1-blue-mask.png";
 import SectonTwoBoyImg from "./assets/sec-2-img.png";
 
 function FirstSection(props) {
-    // const [logoIsVisble, setLogoIsVisble] = useState(false)
-    // const [isPositionfixed, setIsPositionfixed] = useState(true);
-
-    // useEffect(() => {
-    //     let target;
-    //     target = document.getElementById("second-section");
-    //     if (!target) {
-    //         setIsPositionfixed(true)
-    //         return;
-    //     }
-
-    //     const observer = new IntersectionObserver(
-    //         entries => {
-    //             if (entries[0].isIntersecting) {
-    //                 // setIsPositionfixed(false)
-    //                 console.log(entries, "---------")
-    //                 // setLogoIsVisble(true)
-    //             } else {
-    //                 // setIsPositionfixed(true)
-    //                 console.log(entries, "========")
-    //                 // setLogoIsVisble(false)
-    //             }
-    //         },
-    //         {
-    //             threshold: 0.1
-    //         }
-    //     );
-    //     observer.observe(target);
-    // }, []);
-
     const renderFirsthalf = () => {
         return (
             <div className="one-top-half">
@@ -49,6 +19,7 @@ function FirstSection(props) {
                 </div>
                 <img className="section-one-img" alt="img" data-aos="fade-up"
                     src={SectionOneImg} />
+                <div className="empty-bottom"></div>
             </div>
         )
     }
@@ -82,6 +53,7 @@ function FirstSection(props) {
             <img className="blue-mask-img" alt="img" src={BlueOneImg} />
             {renderFirsthalf()}
             {renderBottomhalf()}
+            <div className="empty-bottom"></div>
         </div>
     );
 }

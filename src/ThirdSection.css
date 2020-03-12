@@ -42,7 +42,7 @@
 .third-bottom-half {
   display: flex;
   height: 100vh;
-  border-bottom: 1px solid white;
+  position: relative;
 }
 
 .third-get-app-button {
@@ -80,9 +80,10 @@
 }
 
 .hand-img {
-  width: 660px;
-  height: 670px;
+  width: 642px;
+  height: 300px;
   right: 0;
+  top: 370px;
   position: absolute;
 }
 

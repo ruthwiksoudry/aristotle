@@ -38,5 +38,23 @@
 }
 
 .page-content-wrapper {
+  position: relative;
+}
+
+.page-content-wrapper {
   padding-top: 64px;
+}
+
+.bottom-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .bottom-div {
+    height: 200px;
+  }
 }

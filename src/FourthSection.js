@@ -12,9 +12,9 @@ function FourthSection(props) {
     const renderFirsthalf = () => {
         return (
             <div className="fourth-top-half">
-                <img className="running-img" alt="img" src={RunningImg} />
+                <img data-aos-duration="2000" data-aos="fade-up" className="running-img" alt="img" src={RunningImg} />
                 <div className="fourth-top-right-part">
-                    <div className="two-text-wrapper">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
                         <div className="challenges">CHALLENGES</div>
                         <div className="fourth-heading">
                             Running against clock, playing catch up with your friends?
@@ -33,11 +33,11 @@ function FourthSection(props) {
         return (
             <div className="fourth-bottom-half">
                 <div className="fourth-top-left-part">
-                    <img className="sec-8-img" alt="img" src={SectionEightImg} />
-                    <img className="pyramid-img" alt="img" src={PyramidImg} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="sec-8-img" alt="img" src={SectionEightImg} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="pyramid-img" alt="img" src={PyramidImg} />
                 </div>
                 <div className="fourth-top-right-part">
-                    <div className="four-text-wrapper">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="four-text-wrapper">
                         <div className="challenges">CHALLENGES</div>
                         <div className="fourth-heading">
                             Here's is the nitro boost you need to catch up with your friends!
@@ -48,7 +48,6 @@ function FourthSection(props) {
                         <div onClick={_openPlayStore} className="fourth-get-app-button">GET THE APP</div>
                     </div>
                 </div>
-
             </div>
         )
     }

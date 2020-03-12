@@ -14,7 +14,7 @@ function FifthSection(props) {
         return (
             <div className="fifth-top-half">
                 <div className="fifth-top-left-part">
-                    <div className="two-text-wrapper">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
                         <div className="predictive-analysis">Predictive Analysis</div>
                         <div className="fifth-top-heading">
                             Worried about how you will fair in exams...
@@ -25,8 +25,8 @@ function FifthSection(props) {
                     </div>
                 </div>
                 <div className="fifth-top-right-part">
-                    <img className="section-nine-img" alt="img" src={GirlWithPower} />
-                    <img className="section-9-asset-img" alt="img" src={SectionNineAsset} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="section-nine-img" alt="img" src={GirlWithPower} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="section-9-asset-img" alt="img" src={SectionNineAsset} />
                 </div>
             </div>
         )
@@ -36,7 +36,7 @@ function FifthSection(props) {
         return (
             <div className="fifth-bottom-half">
                 <div className="fifth-bottom-left-part">
-                    <div className="two-text-wrapper">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
                         <div className="predictive-analysis">Predictive Analysis</div>
                         <div className="fifth-bottom-heading">
                             Aristotle can help you see your future success.
@@ -51,8 +51,8 @@ function FifthSection(props) {
                     </div>
                 </div>
                 <div className="fifth-bottom-right-part">
-                    <img className="phone-two-img" alt="img" src={SectionTenImg} />
-                    <img className="sec-10-asset" alt="img" src={SectionTenAsset} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="phone-two-img" alt="img" src={SectionTenImg} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="sec-10-asset" alt="img" src={SectionTenAsset} />
                 </div>
             </div>
         )

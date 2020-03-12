@@ -14,7 +14,7 @@ function ThirdSection(props) {
         return (
             <div className="third-top-half">
                 <div className="third-top-left-part">
-                    <div className="two-text-wrapper">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
                         <div className="question-forum">FORUM</div>
                         <div className="third-heading">
                             Nobody around you to answer your doubts and question...
@@ -24,10 +24,8 @@ function ThirdSection(props) {
                     </div>
                     </div>
                 </div>
-                {/* <div className="third-top-right-part"> */}
-                <img className="kid-in-box-img" alt="img" src={KidInBoxImg} />
-                <img className="sec-5-img" alt="img" src={SecFiveImg} />
-                {/* </div> */}
+                <img data-aos-duration="2000" data-aos="fade-up" className="kid-in-box-img" alt="img" src={KidInBoxImg} />
+                <img data-aos-duration="2000" data-aos="fade-up" className="sec-5-img" alt="img" src={SecFiveImg} />
             </div>
         )
     }
@@ -36,7 +34,7 @@ function ThirdSection(props) {
         return (
             <div className="third-bottom-half">
                 <div className="third-top-left-part">
-                    <div className="two-text-wrapper">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
                         <div className="question-forum">FORUM</div>
                         <div className="third-heading">
                             Grab a helping hand from our expert at any hour.
@@ -48,8 +46,8 @@ function ThirdSection(props) {
                     </div>
                 </div>
                 <div className="third-top-right-part">
-                    <img className="kid-out-box-img" alt="img" src={KidOutBoxImg} />
-                    <img className="hand-img" alt="img" src={HandsImg} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="kid-out-box-img" alt="img" src={KidOutBoxImg} />
+                    <img data-aos-duration="2000" data-aos="fade-up" className="hand-img" alt="img" src={HandsImg} />
                 </div>
             </div>
         )
