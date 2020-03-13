@@ -69,7 +69,7 @@ class App extends React.Component {
             <FourthSection />
             <FifthSection />
             <Footer />
-            {!this.state.isFooterVisible && <div className="bottom-div" />}
+            {!this.state.isFooterVisible && <div className="bottom-div container" />}
           </div>
         </div>
       </div>
