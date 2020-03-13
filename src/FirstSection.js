@@ -5,6 +5,9 @@ import SectionOneImg from "./assets/sec-1.png"
 import { _openPlayStore } from './RouteFunction';
 import BlueOneImg from "./assets/sec-1-blue-mask.png";
 import SectonTwoBoyImg from "./assets/sec-2-img.png";
+import OuterMask from "./assets/sec-1-outermask.png";
+
+
 
 function FirstSection(props) {
     const renderFirsthalf = () => {
@@ -17,9 +20,7 @@ function FirstSection(props) {
                     </div>
                     <div className="find-out-how">FIND OUT HOW</div>
                 </div>
-                <img className="section-one-img" alt="img" data-aos="fade-up"
-                    src={SectionOneImg} />
-                <div className="empty-bottom"></div>
+
             </div>
         )
     }
@@ -51,9 +52,11 @@ function FirstSection(props) {
     return (
         <div className="first-section-container">
             <img className="blue-mask-img" alt="img" src={BlueOneImg} />
+            <img className="outer-mask-img" alt="img" src={OuterMask} />
+            <img className="section-one-img" alt="img" data-aos="fade-up"
+                src={SectionOneImg} />
             {renderFirsthalf()}
             {renderBottomhalf()}
-            <div className="empty-bottom"></div>
         </div>
     );
 }
