@@ -20,11 +20,6 @@
 }
 
 .one-top-left-part {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #1f1a52; */
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,11 +169,6 @@
 }
 
 .one-top-left-part {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #1f1a52; */
-
   display: flex;
   flex-direction: column;
   justify-content: center;

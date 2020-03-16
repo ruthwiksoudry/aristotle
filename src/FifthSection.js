@@ -41,7 +41,7 @@ function FifthSection(props) {
         console.log(isFooter, "isfooter")
 
         if (isFifthSec && !isFourthSec && !isFooter) {
-            return !isOneImg ? (
+            return isOneImg ? (
                 <div data-aos-duration="2000" data-aos="fade-up"
                     className="fifth-text-section">
                     <div className="question-forum">FORUM</div>

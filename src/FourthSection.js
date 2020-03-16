@@ -34,7 +34,7 @@ function FourthSection(props) {
 
     const fourthSectionContainer = () => {
         if (isFourthSec && !isThirdSec && !isFifthSec) {
-            return !isOneImg ? (
+            return isOneImg ? (
                 <div data-aos-duration="2000" className="second-text-section">
                     <div className="challenges">CHALLENGES</div>
                     <div className="fourth-heading">

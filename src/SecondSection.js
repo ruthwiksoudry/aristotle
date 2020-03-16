@@ -37,7 +37,7 @@ function SecondSection(props) {
 
     const secondSectionText = () => {
         if (isSecondSec && !isThirdSec && !isFirstSec) {
-            return !isOneImg ? (
+            return isOneImg ? (
                 <div data-aos-duration="2000" className="second-text-section">
                     <div className="revision">Revisions</div>
                     <div className="two-top-heading">
