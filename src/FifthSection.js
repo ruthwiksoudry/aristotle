@@ -1,68 +1,85 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./FifthSection.css";
 import GirlWithPower from "./assets/sec-9-girl.png";
 import SectionNineAsset from "./assets/sec-9-asset.png";
-import SectionNineMask from "./assets/sec-9-mask.png";
+// import SectionNineMask from "./assets/sec-9-mask.png";
 import SectionTenImg from "./assets/sec-10-img.png";
 import SectionTenAsset from "./assets/sec-10-asset.png";
 import { _openPlayStore } from './RouteFunction';
+import Mask5 from "./assets/mask5.png";
 
 
 function FifthSection(props) {
+    const [isOneImg, setOneImg] = useState(false);
+    const { isFifthSec, isFooter, isFourthSec } = props;
 
-    const renderFirsthalf = () => {
-        return (
-            <div className="fifth-top-half">
-                <div className="fifth-top-left-part">
-                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
-                        <div className="predictive-analysis">Predictive Analysis</div>
-                        <div className="fifth-top-heading">
-                            Worried about how you will fair in exams...
-                    </div>
-                        <div className="fifth-top-body">
-                            Counting on crystal ball and tarrot cards?
-                    </div>
-                    </div>
-                </div>
-                <div className="fifth-top-right-part">
-                    <img data-aos-duration="2000" data-aos="fade-up" className="section-nine-img" alt="img" src={GirlWithPower} />
-                    <img data-aos-duration="2000" data-aos="fade-up" className="section-9-asset-img" alt="img" src={SectionNineAsset} />
-                </div>
-            </div>
-        )
-    }
+    useEffect(() => {
 
-    const renderBottomhalf = () => {
-        return (
-            <div className="fifth-bottom-half">
-                <div className="fifth-bottom-left-part">
-                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
-                        <div className="predictive-analysis">Predictive Analysis</div>
-                        <div className="fifth-bottom-heading">
-                            Aristotle can help you see your future success.
-                     </div>
-                        <div className="fifth-bottom-body">
-                            Aristotle can predict how we you'll do in your exam based on
-                            how you prepare with us
-                    </div>
-                        <div onClick={_openPlayStore} className="fifth-get-the-app">
-                            GET THE APP
-                    </div>
+
+        let targetOne;
+        targetOne = document.getElementById("section-nine-img");
+        if (!targetOne) {
+            return;
+        }
+
+        const observerOne = new IntersectionObserver(
+            entries => {
+                if (entries[0].isIntersecting) {
+                    setOneImg(true)
+                } else {
+                    setOneImg(false)
+                }
+            },
+            {
+                threshold: 0.1
+            }
+        );
+        observerOne.observe(targetOne);
+    }, []);
+
+    const fifthTextSection = () => {
+        console.log(isFooter, "isfooter")
+
+        if (isFifthSec && !isFourthSec && !isFooter) {
+            return !isOneImg ? (
+                <div data-aos-duration="2000" data-aos="fade-up"
+                    className="fifth-text-section">
+                    <div className="question-forum">FORUM</div>
+                    <div className="third-heading">
+                        Nobody around you to answer your doubts and question...
+                         </div>
+                    <div className="third-content">
+                        Feels like walls are closing in on you?
                     </div>
                 </div>
-                <div className="fifth-bottom-right-part">
-                    <img data-aos-duration="2000" data-aos="fade-up" className="phone-two-img" alt="img" src={SectionTenImg} />
-                    <img data-aos-duration="2000" data-aos="fade-up" className="sec-10-asset" alt="img" src={SectionTenAsset} />
-                </div>
-            </div>
-        )
+            ) : (
+                    <div data-aos-duration="2000" data-aos="fade-up"
+                        className="fifth-text-section">
+                        <div className="question-forum">FORUM</div>
+                        <div className="third-heading">
+                            Grab a helping hand from our expert at any hour.
+                    </div>
+                        <div className="third-content">
+                            Ask a question on the forum and get solutions from our subject matter experts
+                    </div>
+                        <div onClick={_openPlayStore} className="third-get-app-button">GET THE APP</div>
+                    </div>
+                )
+        }
     }
 
     return (
         <div id="fifth-section-container" className="fifth-section-container">
-            <img className="section-9-mask-img" alt="img" src={SectionNineMask} />
-            {renderFirsthalf()}
-            {renderBottomhalf()}
+            <img className="mask5" alt="img" src={Mask5} />
+            <img data-aos-duration="2000" data-aos="fade-up"
+                id="section-nine-img" className="section-nine-img" alt="img" src={GirlWithPower} />
+            <img data-aos-duration="2000" data-aos="fade-up"
+                className="section-9-asset-img" alt="img" src={SectionNineAsset} />
+            <img data-aos-duration="2000" data-aos="fade-up"
+                className="phone-two-img" alt="img" src={SectionTenImg} />
+            <img data-aos-duration="2000" data-aos="fade-up"
+                className="sec-10-asset" alt="img" src={SectionTenAsset} />
+            {fifthTextSection()}
         </div>
     );
 }

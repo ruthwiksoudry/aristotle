@@ -1,81 +1,192 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import MenuBar from "./MenuBar";
 import FirstSection from "./FirstSection";
-// eslint-disable-next-line 
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 import FourthSection from "./FourthSection";
-// import FifthSection from './FifthSection';
-// import Footer from './Footer';
+import FifthSection from './FifthSection';
+import Footer from './Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { isInterSectionObserverSupported } from "./RouteFunction";
 
-class App extends React.Component {
+function App(props) {
 
-  constructor() {
-    super();
-    this.state = {
-      isFooterVisible: false
-    }
-  }
+  const [isFirstSec, setIsFirstSec] = useState(false);
+  const [isSecondSec, setIsSecondSec] = useState(false);
+  const [isThirdSec, setIsThirdSec] = useState(false);
+  const [isFourthSec, setIsFourthSec] = useState(false);
+  const [isFifthSec, setIsFifthSec] = useState(false);
+  const [isFooter, setIsFooter] = useState(false);
 
-  componentDidMount() {
+
+  useEffect(() => {
     AOS.init({
       duration: 2000
     })
-    this.logoObserver()
+    if (isInterSectionObserverSupported) {
+      firstSectionObserver()
+      secondSectionObserver()
+      thirdSectionObserver()
+      fourthSectionObserver()
+      fifthSectionObserver()
+      footerSectionObserver()
+    }
+  }, [])
+
+  const firstSectionObserver = () => {
+    let targetOne;
+    targetOne = document.getElementById("first-section-container");
+    if (!targetOne) {
+      return;
+    }
+
+    const observerTwo = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          setIsFirstSec(true)
+        } else {
+          setIsFirstSec(false)
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+    observerTwo.observe(targetOne);
   }
 
-  logoObserver = () => {
-    const isobserverSupport = isInterSectionObserverSupported();
-    if (!isobserverSupport) {
+  const secondSectionObserver = () => {
+    let targetOne;
+    targetOne = document.getElementById("second-section-container");
+    if (!targetOne) {
       return;
     }
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0
-    };
-    let target;
-    target = document.getElementById("footer-contanier");
 
-    if (!target) {
-      this.setState({ logoIsVisble: true });
-      return;
-    }
-    const observer = new IntersectionObserver((entries, observers) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          this.setState({ isFooterVisible: true })
+    const observerTwo = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          setIsSecondSec(true)
         } else {
-          this.setState({ isFooterVisible: false })
+          setIsSecondSec(false)
         }
-      }, options);
-    });
-    observer.observe(target);
-  };
+      },
+      {
+        threshold: 0.1
+      }
+    );
+    observerTwo.observe(targetOne);
+  }
+
+  const thirdSectionObserver = () => {
+    let targetOne;
+    targetOne = document.getElementById("third-section-container");
+    if (!targetOne) {
+      return;
+    }
+
+    const observerTwo = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          setIsThirdSec(true)
+        } else {
+          setIsThirdSec(false)
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+    observerTwo.observe(targetOne);
+  }
+
+  const fourthSectionObserver = () => {
+    let targetOne;
+    targetOne = document.getElementById("fourth-section-container");
+    if (!targetOne) {
+      return;
+    }
+
+    const observerTwo = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          setIsFourthSec(true)
+        } else {
+          setIsFourthSec(false)
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+    observerTwo.observe(targetOne);
+  }
+
+  const fifthSectionObserver = () => {
+    let targetOne;
+    targetOne = document.getElementById("fifth-section-container");
+    if (!targetOne) {
+      return;
+    }
+
+    const observerTwo = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting) {
+          setIsFifthSec(true)
+        } else {
+          setIsFifthSec(false)
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+    observerTwo.observe(targetOne);
+  }
+
+  const footerSectionObserver = () => {
+    console.log("insideeeeeeee")
+    let targetOne;
+    targetOne = document.getElementById("footer-container");
+    if (!targetOne) {
+      return;
+    }
+
+    const observerTwo = new IntersectionObserver(
+      entries => {
+        console.log(entries[0].isIntersecting, "asaasd")
+        if (entries[0].isIntersecting) {
+          setIsFooter(true)
+        } else {
+          setIsFooter(false)
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+    observerTwo.observe(targetOne);
+  }
 
 
-  render() {
-    return (
-      <div className="App">
-        <MenuBar />
-        <div className="page-content-wrapper container">
-          <div className="row">
-            <FirstSection />
-            <SecondSection />
-            <ThirdSection />
-            <FourthSection />
-            {/* <FifthSection /> */}
-            {/* <Footer /> */}
-            {!this.state.isFooterVisible && <div className="bottom-div container" />}
-          </div>
+
+  return (
+    <div className="App">
+      <MenuBar />
+      <div className="page-content-wrapper container">
+        <div className="row">
+          <FirstSection isFirstSec={isFirstSec} isSecondSec={isSecondSec} />
+          <SecondSection isFirstSec={isFirstSec} isSecondSec={isSecondSec} isThirdSec={isThirdSec} />
+          <ThirdSection isSecondSec={isSecondSec} isThirdSec={isThirdSec} isFourthSec={isFourthSec} />
+          <FourthSection isThirdSec={isThirdSec} isFourthSec={isFourthSec} isFifthSec={isFifthSec} />
+          <FifthSection isFourthSec={isFourthSec} isFifthSec={isFifthSec} isFooter={isFooter} />
+          <Footer isFifthSec={isFifthSec} isFooter={isFooter} />
+          <div className="bottom-div container" />
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;

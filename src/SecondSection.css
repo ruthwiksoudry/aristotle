@@ -107,7 +107,7 @@
   right: 50%;
   top: 380px;
   position: fixed;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .girl-sitting-absolute {

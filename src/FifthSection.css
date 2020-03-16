@@ -82,39 +82,73 @@
   width: 500px;
   height: 500px;
   position: absolute;
-  /* margin-top: 18%; */
-  top: 6px;
-  right: -620px;
+  top: 1%;
+  right: 8%;
 }
 
 .section-9-asset-img {
   position: absolute;
   width: 200px;
   height: 200px;
-  top: 64px;
+  top: 8%;
+  right: 46%;
 }
 
 .phone-two-img {
   width: 400px;
   height: 500px;
-  /* margin-top: 10%; */
-  right: 5px;
   position: absolute;
+  right: 2%;
+  top: 46%;
 }
 
 .sec-10-asset {
   width: 100px;
-  right: 300px;
+  right: 0;
   height: 100px;
   position: absolute;
-  top: 375px;
+  top: 63%;
+  right: 40%;
 }
 
-.section-9-mask-img {
+/* .section-9-mask-img {
   width: 650px;
   top: 64px;
   height: 570px;
   right: 0;
-  float: right;
   position: sticky;
+} */
+
+.fifth-text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f1a52;
+  position: fixed;
+  z-index: 1000;
+  top: 35%;
+  width: 23%;
+  padding-left: 3%;
+  text-align: left;
+}
+
+.fifth-section-container {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  background-color: #e59dfb;
+}
+
+.mask5 {
+  position: sticky;
+  width: 100%;
+  top: 64px;
+  z-index: 100;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 1680px) {
+  .mask5 {
+    height: 800px;
+  }
 }

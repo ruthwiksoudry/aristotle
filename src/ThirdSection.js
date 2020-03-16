@@ -11,35 +11,14 @@ import Mask3 from "./assets/mask3.png"
 
 
 function ThirdSection(props) {
-    const [isFourthSec, setIsFourthSec] = useState(false);
     const [isOneImg, setOneImg] = useState(false);
-    const [isThridSec, setThirdSec] = useState(false);
+    const { isSecondSec, isThirdSec, isFourthSec } = props;
 
 
     useEffect(() => {
-        let target;
-        target = document.getElementById("fourth-section-container");
-        if (!target) {
-            return;
-        }
-
-        const observer = new IntersectionObserver(
-            entries => {
-                if (entries[0].isIntersecting) {
-                    setIsFourthSec(true)
-                } else {
-                    setIsFourthSec(false)
-                }
-            },
-            {
-                threshold: 0.1
-            }
-        );
-        observer.observe(target);
-
         let targetOne;
-        targetOne = document.getElementById("bookshelf-img");
-        if (!target) {
+        targetOne = document.getElementById("kid-in-box-img");
+        if (!targetOne) {
             return;
         }
 
@@ -57,73 +36,10 @@ function ThirdSection(props) {
         );
         observerOne.observe(targetOne);
 
-        //========
-        let targetTwo;
-        targetTwo = document.getElementById("third-section-container");
-        if (!target) {
-            return;
-        }
-
-        const observerTwo = new IntersectionObserver(
-            entries => {
-                if (entries[0].isIntersecting) {
-                    setThirdSec(true)
-                } else {
-                    setThirdSec(false)
-                }
-            },
-            {
-                threshold: 0.1
-            }
-        );
-        observerTwo.observe(targetTwo);
     }, []);
 
-    // const renderFirsthalf = () => {
-    //     return (
-    //         <div className="third-top-half">
-    //             <div className="third-top-left-part">
-    //                 <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
-    //                     <div className="question-forum">FORUM</div>
-    //                     <div className="third-heading">
-    //                         Nobody around you to answer your doubts and question...
-    //                      </div>
-    //                     <div className="third-content">
-    //                         Feels like walls are closing in on you?
-    //                 </div>
-    //                 </div>
-    //             </div>
-    //             <img data-aos-duration="2000" data-aos="fade-up" className="kid-in-box-img" alt="img" src={KidInBoxImg} />
-    //             <img data-aos-duration="2000" data-aos="fade-up" className="sec-5-img" alt="img" src={SecFiveImg} />
-    //         </div>
-    //     )
-    // }
-
-    // const renderBottomhalf = () => {
-    //     return (
-    //         <div className="third-bottom-half">
-    //             <div className="third-top-left-part">
-    //                 <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
-    //                     <div className="question-forum">FORUM</div>
-    //                     <div className="third-heading">
-    //                         Grab a helping hand from our expert at any hour.
-    //                 </div>
-    //                     <div className="third-content">
-    //                         Ask a question on the forum and get solutions from our subject matter experts
-    //                 </div>
-    //                     <div onClick={_openPlayStore} className="third-get-app-button">GET THE APP</div>
-    //                 </div>
-    //             </div>
-    //             <div className="third-top-right-part">
-    //                 <img data-aos-duration="2000" data-aos="fade-up" className="kid-out-box-img" alt="img" src={KidOutBoxImg} />
-    //                 <img data-aos-duration="2000" data-aos="fade-up" className="hand-img" alt="img" src={HandsImg} />
-    //             </div>
-    //         </div>
-    //     )
-    // }
-
     const ThirdSectionText = () => {
-        if (isThridSec && !isFourthSec) {
+        if (isThirdSec && !isFourthSec && !isSecondSec) {
             return !isOneImg ? (
                 <div data-aos-duration="2000" className="third-text-section">
                     <div className="question-forum">FORUM</div>
@@ -161,9 +77,6 @@ function ThirdSection(props) {
             {!isOneImg && <img data-aos-duration="2000"
                 data-aos="fade-up" className="hand-img" alt="img" src={HandsImg} />}
             {ThirdSectionText()}
-            {/* <img className="sec-5-mask-img" alt="img" src={SectionFiveMask} /> */}
-            {/* {renderFirsthalf()}
-            {renderBottomhalf()} */}
         </div>
     );
 }

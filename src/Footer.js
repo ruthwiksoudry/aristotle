@@ -8,7 +8,7 @@ import { _openPlayStore } from './RouteFunction';
 function Footer(props) {
 
     return (
-        <div id="footer-contanier" className="footer-contanier">
+        <div id="footer-container" className="footer-container">
             <div className="footer-title">
                 Achive master and become the hero of you own story.
             </div>
