@@ -59,7 +59,7 @@ function FifthSection(props) {
     }
 
     return (
-        <div className="fifth-section-container">
+        <div id="fifth-section-container" className="fifth-section-container">
             <img className="section-9-mask-img" alt="img" src={SectionNineMask} />
             {renderFirsthalf()}
             {renderBottomhalf()}

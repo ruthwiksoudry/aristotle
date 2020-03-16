@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MenuBar from "./MenuBar";
 import FirstSection from "./FirstSection";
+// eslint-disable-next-line 
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 import FourthSection from "./FourthSection";
@@ -67,8 +68,8 @@ class App extends React.Component {
             <SecondSection />
             <ThirdSection />
             <FourthSection />
-            <FifthSection />
-            <Footer />
+            {/* <FifthSection /> */}
+            {/* <Footer /> */}
             {!this.state.isFooterVisible && <div className="bottom-div container" />}
           </div>
         </div>

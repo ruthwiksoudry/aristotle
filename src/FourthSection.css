@@ -1,9 +1,3 @@
-.fourth-section-container {
-  width: 100%;
-  position: relative;
-  padding-bottom: 30px;
-}
-
 .fourth-top-half {
   display: flex;
   position: relative;
@@ -68,7 +62,7 @@
 }
 
 .sec-8-img {
-  top: 30px;
+  top: 45%;
   width: 500px;
   position: absolute;
   height: 500px;
@@ -105,4 +99,51 @@
   height: 150px;
   top: 400px;
   left: 450px;
+  top: 62%;
+}
+
+.fourth-section-container {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  background-color: #ffdd96;
+}
+
+.mask4 {
+  position: sticky;
+  width: 100%;
+  top: 64px;
+  z-index: 100;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 1680px) {
+  .running-img {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 64px;
+    left: 10%;
+  }
+
+  .pyramid-img {
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    top: 400px;
+    left: 450px;
+    top: 62%;
+  }
+
+  .sec-8-img {
+    top: 45%;
+    width: 500px;
+    position: absolute;
+    height: 500px;
+    left: 50px;
+  }
+
+  .mask4 {
+    height: 800px;
+  }
 }
