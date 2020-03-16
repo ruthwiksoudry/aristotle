@@ -80,50 +80,50 @@ function SecondSection(props) {
     }, []);
 
 
-    const renderFirsthalf = () => {
-        return (
-            <div className="two-top-half">
-                <div className="two-top-left-part">
-                    <img data-aos-duration="2000" data-aos="fade-up" className="bookshelf-img" alt="img" src={BookshelfImg} />
-                </div>
-                <div data-aos-duration="2000" data-aos="fade-up" className="two-top-right-part">
-                    <div data-aos-duration="2000" className="two-text-wrapper">
-                        <div className="revision">Revisions</div>
-                        <div className="two-top-heading">
-                            Confused about where to begin to revise for your exams?
-                    </div>
-                        <div id="text-div" className="two-top-body">
-                            Overwhelmed by all the text book and notes you made
-                    </div>
-                    </div>
-                </div>
-            </div>
-        )
-    }
+    // const renderFirsthalf = () => {
+    //     return (
+    //         <div className="two-top-half">
+    //             <div className="two-top-left-part">
+    //                 <img data-aos-duration="2000" data-aos="fade-up" className="bookshelf-img" alt="img" src={BookshelfImg} />
+    //             </div>
+    //             <div data-aos-duration="2000" data-aos="fade-up" className="two-top-right-part">
+    //                 <div data-aos-duration="2000" className="two-text-wrapper">
+    //                     <div className="revision">Revisions</div>
+    //                     <div className="two-top-heading">
+    //                         Confused about where to begin to revise for your exams?
+    //                 </div>
+    //                     <div id="text-div" className="two-top-body">
+    //                         Overwhelmed by all the text book and notes you made
+    //                 </div>
+    //                 </div>
+    //             </div>
+    //         </div>
+    //     )
+    // }
 
-    const renderBottomhalf = () => {
-        return (
-            <div className="two-bottom-half">
-                <div className="two-bottom-left-part">
-                    <img data-aos-duration="2000" data-aos="fade-up" className="phone-img" alt="img" src={PhoneImg} />
-                </div>
-                <div data-aos="fade-up" className="two-bottom-right-part">
-                    <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
-                        <div className="revision">Revisions</div>
-                        <div className="two-bottom-heading">
-                            Stay at the top of your game with personalised revisons
-                        </div>
-                        <div className="two-bottom-body">
-                            Improve in just 10-15min with the best learning tools at your finger tips
-                        </div>
-                        <div className="second-get-the-app" onClick={_openPlayStore}>
-                            GET THE APP
-                    </div>
-                    </div>
-                </div>
-            </div>
-        )
-    }
+    // const renderBottomhalf = () => {
+    //     return (
+    //         <div className="two-bottom-half">
+    //             <div className="two-bottom-left-part">
+    //                 <img data-aos-duration="2000" data-aos="fade-up" className="phone-img" alt="img" src={PhoneImg} />
+    //             </div>
+    //             <div data-aos="fade-up" className="two-bottom-right-part">
+    //                 <div data-aos-duration="2000" data-aos="fade-up" className="two-text-wrapper">
+    //                     <div className="revision">Revisions</div>
+    //                     <div className="two-bottom-heading">
+    //                         Stay at the top of your game with personalised revisons
+    //                     </div>
+    //                     <div className="two-bottom-body">
+    //                         Improve in just 10-15min with the best learning tools at your finger tips
+    //                     </div>
+    //                     <div className="second-get-the-app" onClick={_openPlayStore}>
+    //                         GET THE APP
+    //                 </div>
+    //                 </div>
+    //             </div>
+    //         </div>
+    //     )
+    // }
 
     const secondSectionText = () => {
         if (isSecondSec && !isThridSec) {
