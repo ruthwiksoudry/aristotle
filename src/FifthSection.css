@@ -179,4 +179,27 @@
   .mask5 {
     height: 800px;
   }
+
+  .sec-10-asset {
+    width: 150px;
+    right: 0;
+    height: 150px;
+    position: absolute;
+    top: 77%;
+    z-index: 100;
+    right: 40%;
+  }
+
+  .fifth-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1f1a52;
+    position: fixed;
+    z-index: 1000;
+    top: 41%;
+    width: 25%;
+    padding-left: 3%;
+    text-align: left;
+  }
 }

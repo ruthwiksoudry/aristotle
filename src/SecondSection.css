@@ -176,6 +176,19 @@
     z-index: 1000;
   }
 
+  .second-text-section {
+    display: flex;
+    flex-direction: column;
+    color: #1f1a52;
+    position: fixed;
+    z-index: 1000;
+    top: 35%;
+    width: 23%;
+    padding-left: 3%;
+    text-align: left;
+    right: 22%;
+  }
+
   .mask2 {
     height: 800px;
   }

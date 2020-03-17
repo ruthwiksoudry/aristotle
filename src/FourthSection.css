@@ -165,6 +165,18 @@
     left: 50px;
   }
 
+  .fourth-text-section {
+    display: flex;
+    flex-direction: column;
+    color: #1f1a52;
+    position: fixed;
+    z-index: 1000;
+    top: 35%;
+    width: 28%;
+    text-align: left;
+    right: 21%;
+  }
+
   .mask4 {
     height: 800px;
   }

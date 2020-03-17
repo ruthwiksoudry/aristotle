@@ -149,4 +149,22 @@
   .mask1 {
     height: 800px;
   }
+
+  .second-text-section {
+    display: flex;
+    flex-direction: column;
+    color: #1f1a52;
+    position: fixed;
+    z-index: 1000;
+    top: 35%;
+    width: 22%;
+    padding-left: 3%;
+    text-align: left;
+    right: 22%;
+  }
+
+  .one-top-left-part {
+    top: 44%;
+    width: 26%;
+  }
 }

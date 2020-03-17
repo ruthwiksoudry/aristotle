@@ -23,7 +23,6 @@
 
 .third-content {
   font-size: 20px;
-  align-self: center;
   text-align: left;
   margin-bottom: 30px;
   color: #24236a;
@@ -211,6 +210,36 @@
 }
 
 @media only screen and (min-width: 1680px) {
+  .third-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1f1a52;
+    position: fixed;
+    z-index: 1000;
+    top: 27%;
+    width: 20%;
+    padding-left: 4%;
+    text-align: left;
+  }
+
+  .hand-img {
+    width: 880px;
+    height: 440px;
+    right: 0;
+    top: 65%;
+    position: absolute;
+    z-index: 100;
+  }
+
+  .sec-5-img {
+    position: absolute;
+    width: 266px;
+    height: 160px;
+    top: 26%;
+    right: 47%;
+    z-index: 100;
+  }
   .mask3 {
     height: 800px;
   }

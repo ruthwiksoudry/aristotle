@@ -33,6 +33,11 @@ function FirstSection(props) {
         observerOne.observe(targetOne);
     }, []);
 
+    const clicKHandler = () => {
+        const ele = document.getElementById("section-2-img")
+        ele && ele.scrollIntoView()
+    }
+
     const OneFirstHalfText = () => {
         if (isFirstSec && !isSecondSec) {
             return !isOneImg ? (
@@ -53,9 +58,9 @@ function FirstSection(props) {
                     <div data-aos-duration="2000" data-aos="fade-up" className="one-top-left-part">
                         <div className="instant-search">In the dark about how to your exam?</div>
                         <div className="smart-search">
-                            We've have all been there...
+                            We've have all been there...Explore the aristotle app to find out how
                          </div>
-                        <div className="find-out-how">FIND OUT HOW</div>
+                        <div onClick={clicKHandler} className="find-out-how">EXPLORE</div>
                     </div>
                 )
         }
