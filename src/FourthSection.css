@@ -39,23 +39,17 @@
 }
 
 .sec-8-img {
-  /* top: 45%;
+  top: 42%;
   width: 500px;
   position: absolute;
-  height: 500px;
-  left: 50px; */
-
-  top: 49%;
-  width: 600px;
-  position: absolute;
-  height: 685px;
-  left: 15px;
+  height: 585px;
+  left: 60px;
 }
 
 .running-img {
   position: absolute;
-  width: 550px;
-  height: 550px;
+  width: 450px;
+  height: 450px;
   top: 5%;
   left: 8%;
 }
