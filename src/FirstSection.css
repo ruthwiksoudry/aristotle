@@ -14,67 +14,10 @@
   transition: background-color 0.5s linear;
 }
 
-.one-top-half {
-  display: flex;
-  height: 100vh;
-}
-
-.one-top-left-part {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #1f1a52;
-  position: fixed;
-  z-index: 1000;
-  top: 43%;
-}
-
-.one-heading {
-  align-self: center;
-  text-align: left;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  width: 60%;
-}
-
-.one-content {
-  align-self: center;
-  text-align: left;
-  font-size: 20px;
-  font-weight: normal;
-  width: 60%;
-  margin-bottom: 30px;
-}
-
-.one-bottom-left-part {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #1f1a52;
-  width: 50%;
-  padding-top: 70px;
-}
-
 .find-out-how {
   text-align: left;
   font-size: 18px;
   color: black;
-}
-
-.one-top-right-part {
-  width: 60%;
-}
-
-.one-bottom-half {
-  display: flex;
-  height: 100vh;
-}
-
-.two-text-wrapper {
-  width: 60%;
-  align-self: center;
-  text-align: left;
 }
 
 .smart-search {
@@ -102,47 +45,6 @@
   color: white;
   width: 40%;
   text-align: center;
-}
-
-.blue-mask-img {
-  /* width: 55%;
-  top: 0;
-  height: 100%;
-  right: 0;
-  float: right;
-  position: fixed; */
-
-  width: 650px;
-  top: 64px;
-  height: 570px;
-  right: 0;
-  float: right;
-  position: sticky;
-}
-
-.section-one-img {
-  /* width: 560px;
-  height: 535px; */
-  right: 0;
-  z-index: 9;
-  position: absolute;
-  width: 625px;
-  height: 625px;
-}
-
-.section-two-boy-img {
-  width: 653px;
-  height: 510x;
-  right: 0;
-  padding-top: 64px;
-  position: absolute;
-}
-
-.magnet-img {
-  position: absolute;
-  width: 137px;
-  right: 520px;
-  margin-top: 195px;
 }
 
 .mask1 {
@@ -189,6 +91,46 @@
   padding-left: 3%;
   text-align: left;
   font-family: Rubik;
+}
+
+@media only screen and (min-width: 1440px) {
+  .section-1-img {
+    /* width: 525px;
+  height: 535px; */
+    right: 0;
+    position: absolute;
+
+    width: 650px;
+    height: 650px;
+  }
+
+  .section-2-img {
+    /* width: 500px;
+  height: 510px; */
+    right: 0;
+    top: 53%;
+    position: absolute;
+
+    width: 600px;
+    height: 600px;
+  }
+
+  .one-top-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1f1a52;
+    position: fixed;
+    z-index: 1000;
+    /* top: 43%;
+  width: 25%; */
+    top: 56%;
+    width: 30%;
+    padding-left: 6%;
+    padding-left: 3%;
+    text-align: left;
+    font-family: Rubik;
+  }
 }
 
 @media only screen and (min-width: 1680px) {
