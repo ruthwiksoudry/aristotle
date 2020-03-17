@@ -67,7 +67,7 @@ function ThirdSection(props) {
     return (
         <div className="third-section-container" id="third-section-container">
             <img className="mask3" alt="img" src={Mask3} />
-            <img data-aos-duration="2000" data-aos="fade-up"
+            <img data-aos-duration="2000" data-aos="fade-up" id="kid-in-box-img"
                 className="kid-in-box-img" alt="img" src={KidInBoxImg} />
             <img data-aos-duration="4000" data-aos="fade-up"
                 className="sec-5-img" alt="img" src={SecFiveImg} />

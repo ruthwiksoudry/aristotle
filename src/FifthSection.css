@@ -180,12 +180,20 @@
     height: 800px;
   }
 
+  .phone-two-img {
+    position: absolute;
+    right: 2%;
+    width: 540px;
+    height: 640px;
+    top: 64%;
+  }
+
   .sec-10-asset {
     width: 150px;
     right: 0;
     height: 150px;
     position: absolute;
-    top: 77%;
+    top: 86%;
     z-index: 100;
     right: 40%;
   }
