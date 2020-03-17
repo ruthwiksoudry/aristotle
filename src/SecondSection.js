@@ -68,7 +68,7 @@ function SecondSection(props) {
         <div id="second-section-container" className="second-section-container">
             <img className="mask2" alt="img" src={Mask2} />
             {isSecondSec && !isThirdSec && !isFirstSec && <img data-aos="fade-up"
-                className={isSecondSec ? "girl-sitting-img" : "girl-sitting-absolute"} alt="img" src={GirlSittingImg} />}
+                data-aos-duration="1000" className={isSecondSec ? "girl-sitting-img" : "girl-sitting-absolute"} alt="img" src={GirlSittingImg} />}
             <img data-aos-duration="2000" data-aos="fade-up" id="bookshelf-img"
                 className="bookshelf-img" alt="img" src={BookshelfImg} />
             <img data-aos-duration="2000" data-aos="fade-up"

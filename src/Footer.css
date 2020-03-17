@@ -4,26 +4,32 @@
 }
 
 .footer-title {
-  font-size: 24px;
+  font-size: 36px;
   color: midnightblue;
-  padding: 20px 0;
-  font-weight: bold;
+  align-self: center;
+  justify-content: center;
+  font-weight: 400;
+  padding-bottom: 50px;
 }
 
 .footer-img {
-  width: 400px;
-  height: 340px;
+  /* width: 400px;
+  height: 340px; */
+
+  width: 573px;
+  height: 453px;
 }
 
 .download-app {
-  font-size: 24px;
+  font-size: 32px;
   color: midnightblue;
   margin: 25px 0 0 0;
   font-weight: bold;
 }
 
 .play-store-img {
-  width: 15%;
-  height: 15%;
+  width: 247px;
+  margin-top: 20px;
+  height: 81px;
   cursor: pointer;
 }

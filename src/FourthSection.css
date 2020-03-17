@@ -12,10 +12,10 @@
 }
 
 .fourth-heading {
-  font-size: 30px;
+  font-size: 34px;
   align-self: center;
   text-align: left;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 20px;
   color: midnightblue;
 }
@@ -56,17 +56,23 @@
 }
 
 .challenges {
-  font-size: 20px;
+  font-size: 28px;
   color: #ffcd65;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 .sec-8-img {
-  top: 45%;
+  /* top: 45%;
   width: 500px;
   position: absolute;
   height: 500px;
-  left: 50px;
+  left: 50px; */
+
+  top: 49%;
+  width: 650px;
+  position: absolute;
+  height: 650px;
+  left: 15px;
 }
 
 .challenge-img {
@@ -85,12 +91,18 @@
 }
 
 .running-img {
-  position: absolute;
+  /* position: absolute;
   width: 450px;
   right: 125%;
   height: 450px;
   top: 64px;
-  left: 4%;
+  left: 4%; */
+
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  top: 5%;
+  left: 8%;
 }
 
 .pyramid-img {
@@ -99,7 +111,22 @@
   height: 150px;
   top: 400px;
   left: 450px;
-  top: 62%;
+  /* top: 62%; */
+  top: 83%;
+  z-index: 100;
+}
+
+.fourth-text-section {
+  display: flex;
+  flex-direction: column;
+  color: #1f1a52;
+  position: fixed;
+  z-index: 1000;
+  top: 35%;
+  width: 29%;
+  padding-left: 8%;
+  text-align: left;
+  right: 17%;
 }
 
 .fourth-section-container {

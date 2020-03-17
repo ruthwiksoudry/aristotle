@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
 .App {
   text-align: center;
-  background-color: #edf3fd;
+  font-family: "Rubik", sans-serif;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -68,7 +69,7 @@
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 33px;
+  /* height: 33px; */
 }
 
 @media only screen and (min-width: 1680px) {

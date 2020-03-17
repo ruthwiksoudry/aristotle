@@ -3,7 +3,6 @@ import "./ThirdSection.css";
 import KidOutBoxImg from "./assets/sec-6-boy.png";
 import SecFiveImg from "./assets/sec-5-outside.png"
 import KidInBoxImg from "./assets/sec-5-boy.png";
-// import SectionFiveMask from "./assets/sec-5-mask.png"
 import HandsImg from "./assets/sec-6-hands.png";
 import { _openPlayStore } from './RouteFunction';
 import Mask3 from "./assets/mask3.png"
@@ -70,7 +69,7 @@ function ThirdSection(props) {
             <img className="mask3" alt="img" src={Mask3} />
             <img data-aos-duration="2000" data-aos="fade-up"
                 className="kid-in-box-img" alt="img" src={KidInBoxImg} />
-            <img data-aos-duration="2000" data-aos="fade-up"
+            <img data-aos-duration="4000" data-aos="fade-up"
                 className="sec-5-img" alt="img" src={SecFiveImg} />
             <img data-aos-duration="2000" data-aos="fade-up" id="kid-out-box-img"
                 className="kid-out-box-img" alt="img" src={KidOutBoxImg} />

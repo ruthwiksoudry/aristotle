@@ -58,7 +58,6 @@
 
 .find-out-how {
   text-align: left;
-  font-family: Avenir;
   font-size: 18px;
   color: black;
 }
@@ -79,20 +78,19 @@
 }
 
 .smart-search {
-  margin-bottom: 30px;
+  margin-bottom: 18px;
   font-size: 20px;
   font-weight: 500;
 }
 
 .instant-search {
-  font-size: 30px;
-  font-weight: bold;
-  font-weight: bold;
-  margin-bottom: 30px;
+  font-size: 34px;
+  margin-bottom: 32px;
+  font-weight: 400;
 }
 
 .try-it {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -123,11 +121,13 @@
 }
 
 .section-one-img {
-  width: 560px;
-  height: 535px;
+  /* width: 560px;
+  height: 535px; */
   right: 0;
   z-index: 9;
   position: absolute;
+  width: 625px;
+  height: 625px;
 }
 
 .section-two-boy-img {
@@ -154,18 +154,24 @@
 }
 
 .section-1-img {
-  width: 525px;
-  height: 535px;
+  /* width: 525px;
+  height: 535px; */
   right: 0;
   position: absolute;
+
+  width: 650px;
+  height: 650px;
 }
 
 .section-2-img {
-  width: 500px;
-  height: 510px;
+  /* width: 500px;
+  height: 510px; */
   right: 0;
   top: 53%;
   position: absolute;
+
+  width: 600px;
+  height: 600px;
 }
 
 .one-top-left-part {
@@ -175,10 +181,14 @@
   color: #1f1a52;
   position: fixed;
   z-index: 1000;
-  top: 43%;
-  width: 25%;
+  /* top: 43%;
+  width: 25%; */
+  top: 53%;
+  width: 30%;
+  padding-left: 6%;
   padding-left: 3%;
   text-align: left;
+  font-family: Rubik;
 }
 
 @media only screen and (min-width: 1680px) {

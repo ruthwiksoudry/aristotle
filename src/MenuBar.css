@@ -2,7 +2,6 @@
   position: fixed;
   display: flex;
   height: 64px;
-  padding: 0 40px;
   align-items: center;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.11);
   top: 0;
@@ -12,14 +11,37 @@
   justify-content: space-between;
 }
 
+.menubar-sub-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menubar-right {
   display: flex;
   cursor: pointer;
 }
 
+.download-app-wrapper {
+  border-radius: 12px;
+  border: 1px solid #fc5e44;
+  padding: 7px 15px;
+}
+
+.download-app-wrapper:hover {
+  border: 1px solid #fc5e44;
+  background-color: #fc5e44;
+  transition: background-color 1s ease;
+}
+
 .get-the-app {
-  font-family: Rubik;
-  font-weight: bold;
   font-size: 17px;
-  padding-left: 50px;
+  color: #fc5e44;
+}
+
+.get-the-app:hover {
+  color: white;
+}
+
+.aristotle-logo {
+  width: 160px;
 }

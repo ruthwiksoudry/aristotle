@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./FirstSection.css";
-// import MagnetImg from "./assets/sec-2-magnet.png"
 import SectionOneImg from "./assets/sec-1.png"
 import { _openPlayStore } from './RouteFunction';
-// import BlueOneImg from "./assets/sec-1-blue-mask.png";
 import SectonTwoBoyImg from "./assets/sec-2-boy.png";
 import OuterMask from "./assets/complete-white-mask.png";
 
@@ -43,19 +41,19 @@ function FirstSection(props) {
                     <div className="smart-search">SMART SEARCH</div>
                     <div className="instant-search">
                         Shed some light with our instant search
-                </div>
+                    </div>
                     <div className="try-it">
                         Scan any question from your  textbook for step-by-step solutions
-                </div>
+                    </div>
                     <div onClick={_openPlayStore} className="get-app-button">
                         GET THE APP
-                </div>
+                    </div>
                 </div>
             ) : (
                     <div data-aos-duration="2000" data-aos="fade-up" className="one-top-left-part">
-                        <div className="smart-search">In the dark about how to your exam</div>
-                        <div className="instant-search">
-                            We've have all been there
+                        <div className="instant-search">In the dark about how to your exam?</div>
+                        <div className="smart-search">
+                            We've have all been there...
                          </div>
                         <div className="find-out-how">FIND OUT HOW</div>
                     </div>

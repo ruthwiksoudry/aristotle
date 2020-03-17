@@ -35,7 +35,7 @@ function FourthSection(props) {
     const fourthSectionContainer = () => {
         if (isFourthSec && !isThirdSec && !isFifthSec) {
             return isOneImg ? (
-                <div data-aos-duration="2000" className="second-text-section">
+                <div data-aos-duration="2000" className="fourth-text-section">
                     <div className="challenges">CHALLENGES</div>
                     <div className="fourth-heading">
                         Running against clock, playing catch up with your friends?
@@ -45,7 +45,7 @@ function FourthSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div data-aos-duration="2000" data-aos="fade-up" className="second-text-section">
+                    <div data-aos-duration="2000" data-aos="fade-up" className="fourth-text-section">
                         <div className="challenges">CHALLENGES</div>
                         <div className="fourth-heading">
                             Here's is the nitro boost you need to catch up with your friends!

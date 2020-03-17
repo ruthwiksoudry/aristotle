@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./FifthSection.css";
 import GirlWithPower from "./assets/sec-9-girl.png";
-import SectionNineAsset from "./assets/sec-9-asset.png";
-// import SectionNineMask from "./assets/sec-9-mask.png";
 import SectionTenImg from "./assets/sec-10-img.png";
 import SectionTenAsset from "./assets/sec-10-asset.png";
 import { _openPlayStore } from './RouteFunction';
@@ -73,8 +71,6 @@ function FifthSection(props) {
             <img className="mask5" alt="img" src={Mask5} />
             <img data-aos-duration="2000" data-aos="fade-up"
                 id="section-nine-img" className="section-nine-img" alt="img" src={GirlWithPower} />
-            <img data-aos-duration="2000" data-aos="fade-up"
-                className="section-9-asset-img" alt="img" src={SectionNineAsset} />
             <img data-aos-duration="2000" data-aos="fade-up"
                 className="phone-two-img" alt="img" src={SectionTenImg} />
             <img data-aos-duration="2000" data-aos="fade-up"

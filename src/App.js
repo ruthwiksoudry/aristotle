@@ -146,7 +146,6 @@ function App(props) {
   }
 
   const footerSectionObserver = () => {
-    console.log("insideeeeeeee")
     let targetOne;
     targetOne = document.getElementById("footer-container");
     if (!targetOne) {
@@ -155,7 +154,6 @@ function App(props) {
 
     const observerTwo = new IntersectionObserver(
       entries => {
-        console.log(entries[0].isIntersecting, "asaasd")
         if (entries[0].isIntersecting) {
           setIsFooter(true)
         } else {
