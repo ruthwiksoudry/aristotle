@@ -60,12 +60,6 @@
   }
 }
 
-@media only screen and (min-width: 2259px) {
-  .bottom-div {
-    height: 500px;
-  }
-}
-
 .bottom-div {
   width: 100%;
   position: fixed;
