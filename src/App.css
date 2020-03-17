@@ -70,12 +70,13 @@
   width: 100%;
   position: fixed;
   bottom: 0;
-  /* height: 33px; */
 }
 
 @media only screen and (min-width: 1680px) {
   .bottom-div {
-    /* height: 300px; */
-    /* height: 255px; */
+    height: 225px;
   }
+}
+
+@media only screen and (min-width: 1440px) {
 }
