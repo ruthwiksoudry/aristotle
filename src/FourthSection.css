@@ -1,5 +1,5 @@
 .fourth-heading {
-  font-size: 34px;
+  font-size: 28px;
   align-self: center;
   text-align: left;
   font-weight: 400;
@@ -8,11 +8,17 @@
 }
 
 .fourth-content {
-  font-size: 20px;
+  font-size: 15px;
   align-self: center;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: midnightblue;
+}
+
+.challenges {
+  font-size: 18px;
+  color: #ffcd65;
+  margin-bottom: 20px;
 }
 
 .fourth-get-app-button {
@@ -26,7 +32,8 @@
 }
 
 .fourth-get-app-button:hover {
-  opacity: 0.7;
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .four-text-wrapper {
@@ -34,12 +41,6 @@
   align-self: center;
   text-align: left;
   padding-top: 60px;
-}
-
-.challenges {
-  font-size: 28px;
-  color: #ffcd65;
-  margin-bottom: 18px;
 }
 
 .sec-8-img {
@@ -75,10 +76,9 @@
   position: fixed;
   z-index: 1000;
   top: 35%;
-  width: 29%;
-  padding-left: 8%;
+  width: 25%;
   text-align: left;
-  right: 17%;
+  right: 10%;
 }
 
 .fourth-section-container {
@@ -129,11 +129,33 @@
     color: #1f1a52;
     position: fixed;
     z-index: 1000;
-    top: 35%;
+    top: 29%;
     width: 29%;
-    padding-left: 8%;
     text-align: left;
     right: 17%;
+  }
+
+  .fourth-heading {
+    font-size: 34px;
+    align-self: center;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .fourth-content {
+    font-size: 20px;
+    align-self: center;
+    text-align: left;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .challenges {
+    font-size: 28px;
+    color: #ffcd65;
+    margin-bottom: 18px;
   }
 }
 
@@ -177,5 +199,28 @@
 
   .mask4 {
     height: 800px;
+  }
+
+  .fourth-heading {
+    font-size: 34px;
+    align-self: center;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .fourth-content {
+    font-size: 20px;
+    align-self: center;
+    text-align: left;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .challenges {
+    font-size: 28px;
+    color: #ffcd65;
+    margin-bottom: 18px;
   }
 }

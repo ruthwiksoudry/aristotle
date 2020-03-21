@@ -25,10 +25,10 @@
 }
 
 .download-app {
-  font-size: 32px;
+  font-size: 28px;
   color: midnightblue;
   margin: 25px 0 0 0;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .play-store-img {
@@ -36,4 +36,10 @@
   margin-top: 20px;
   height: 81px;
   cursor: pointer;
+  border-radius: 10px;
+}
+
+.play-store-img:hover {
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
 }

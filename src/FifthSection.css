@@ -1,13 +1,13 @@
 .predictive-analysis {
   font-size: 20px;
   color: orange;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .fifth-top-heading {
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: midnightblue;
 }
 
@@ -28,14 +28,21 @@
 .fifth-bottom-heading {
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: midnightblue;
 }
 
 .fifth-bottom-body {
   font-size: 20px;
   color: black;
+  margin-bottom: 20px;
+}
+
+.third-content {
+  font-size: 15px;
+  text-align: left;
   margin-bottom: 30px;
+  color: #24236a;
 }
 
 .fifth-get-the-app {
@@ -50,7 +57,8 @@
 }
 
 .fifth-get-the-app:hover {
-  opacity: 0.7;
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .section-nine-img {
@@ -99,6 +107,16 @@
   background-color: #fac0c3;
 }
 
+.third-get-app-button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  width: 45%;
+  text-align: center;
+}
+
 .mask5 {
   position: sticky;
   width: 100%;
@@ -142,9 +160,55 @@
     position: fixed;
     z-index: 1000;
     top: 47%;
-    width: 27%;
-    padding-left: 3%;
+    width: 32%;
     text-align: left;
+  }
+
+  .predictive-analysis {
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 20px;
+  }
+
+  .fifth-top-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .fifth-top-body {
+    font-size: 20px;
+    color: #2f2f72;
+  }
+
+  .fifth-bottom-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    text-align: left;
+    padding-top: 60px;
+  }
+
+  .fifth-bottom-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .fifth-bottom-body {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .third-content {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #24236a;
   }
 }
 
@@ -182,5 +246,52 @@
     width: 25%;
     padding-left: 3%;
     text-align: left;
+  }
+
+  .predictive-analysis {
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 20px;
+  }
+
+  .fifth-top-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .fifth-top-body {
+    font-size: 20px;
+    color: #2f2f72;
+  }
+
+  .fifth-bottom-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    text-align: left;
+    padding-top: 60px;
+  }
+
+  .fifth-bottom-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: midnightblue;
+  }
+
+  .fifth-bottom-body {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .third-content {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #24236a;
   }
 }

@@ -73,7 +73,7 @@ function App(props) {
         }
       },
       {
-        threshold: 0.1
+        threshold: 0
       }
     );
     observerTwo.observe(targetOne);

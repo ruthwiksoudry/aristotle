@@ -16,26 +16,26 @@
 
 .find-out-how {
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
   color: black;
   cursor: pointer;
 }
 
 .smart-search {
   margin-bottom: 18px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
 
 .instant-search {
-  font-size: 34px;
-  margin-bottom: 32px;
+  font-size: 28px;
+  margin-bottom: 20px;
   font-weight: 400;
 }
 
 .try-it {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .get-app-button {
@@ -46,6 +46,11 @@
   color: white;
   width: 40%;
   text-align: center;
+}
+
+.get-app-button:hover {
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .mask1 {
@@ -110,11 +115,35 @@
     color: #1f1a52;
     position: fixed;
     z-index: 1000;
-    top: 56%;
+    top: 52%;
     width: 30%;
     padding-left: 6%;
     padding-left: 3%;
     text-align: left;
+  }
+
+  .smart-search {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .instant-search {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  .try-it {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .find-out-how {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
   }
 }
 
@@ -151,5 +180,29 @@
   .one-top-left-part {
     top: 47%;
     width: 26%;
+  }
+
+  .smart-search {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .instant-search {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  .try-it {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .find-out-how {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
   }
 }

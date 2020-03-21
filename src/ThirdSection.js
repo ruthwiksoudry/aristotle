@@ -46,7 +46,8 @@ function ThirdSection(props) {
                         Nobody around you to answer your doubts and question...
                          </div>
                     <div className="third-content">
-                        Feels like walls are closing in on you?
+                        Feels like walls are closing in
+                         on you?
                     </div>
                 </div>
             ) : (

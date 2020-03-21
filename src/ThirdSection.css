@@ -1,18 +1,5 @@
-.third-top-half {
-  display: flex;
-  height: 100vh;
-  border-bottom: 1px solid white;
-}
-
-.third-top-left-part {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-}
-
 .third-heading {
-  font-size: 34px;
+  font-size: 28px;
   align-self: center;
   text-align: left;
   font-weight: 400;
@@ -21,14 +8,16 @@
 }
 
 .third-content {
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #24236a;
 }
 
-.third-top-right-part {
-  width: 60%;
+.question-forum {
+  font-size: 18px;
+  color: #61e8ea;
+  margin-bottom: 18px;
 }
 
 .third-bottom-half {
@@ -48,13 +37,8 @@
 }
 
 .third-get-app-button:hover {
-  opacity: 0.7;
-}
-
-.question-forum {
-  font-size: 28px;
-  color: #61e8ea;
-  margin-bottom: 18px;
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .kid-out-box-img {
@@ -128,8 +112,8 @@
     color: #1f1a52;
     position: fixed;
     z-index: 1000;
-    top: 30%;
-    width: 27%;
+    top: 25%;
+    width: 24%;
     padding-left: 4%;
     text-align: left;
   }
@@ -167,6 +151,28 @@
     top: 31%;
     right: 47%;
     z-index: 100;
+  }
+
+  .third-heading {
+    font-size: 34px;
+    align-self: center;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #24236a;
+  }
+
+  .third-content {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #24236a;
+  }
+
+  .question-forum {
+    font-size: 28px;
+    color: #61e8ea;
+    margin-bottom: 18px;
   }
 }
 
@@ -211,5 +217,27 @@
   }
   .mask3 {
     height: 800px;
+  }
+
+  .third-heading {
+    font-size: 34px;
+    align-self: center;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #24236a;
+  }
+
+  .third-content {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #24236a;
+  }
+
+  .question-forum {
+    font-size: 28px;
+    color: #61e8ea;
+    margin-bottom: 18px;
   }
 }
