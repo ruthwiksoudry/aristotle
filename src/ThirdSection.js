@@ -39,8 +39,9 @@ function ThirdSection(props) {
 
     const ThirdSectionText = () => {
         if (isThirdSec && !isFourthSec && !isSecondSec) {
+            console.log()
             return isOneImg ? (
-                <div data-aos-duration="2000" className="third-text-section">
+                <div data-aos="fade-up" className="third-text-section">
                     <div className="question-forum">FORUM</div>
                     <div className="third-heading">
                         Nobody around you to answer your doubts and question...

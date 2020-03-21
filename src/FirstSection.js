@@ -60,7 +60,9 @@ function FirstSection(props) {
                         <div className="smart-search">
                             We've have all been there...Explore the aristotle app to find out how
                          </div>
-                        <div onClick={clicKHandler} className="find-out-how">EXPLORE</div>
+                        <div onClick={clicKHandler} className="find-out-how">
+                            <div>EXPLORE</div>
+                        </div>
                     </div>
                 )
         }

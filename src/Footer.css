@@ -1,5 +1,4 @@
 .footer-container {
-  height: 90vh;
   width: 100%;
 }
 
@@ -17,9 +16,6 @@
 }
 
 .footer-img {
-  /* width: 400px;
-  height: 340px; */
-
   width: 501px;
   height: 396px;
 }

@@ -144,6 +144,12 @@
     font-size: 18px;
     color: black;
     cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
   }
 }
 

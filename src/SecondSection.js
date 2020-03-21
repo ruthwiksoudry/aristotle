@@ -37,7 +37,6 @@ function SecondSection(props) {
 
     const secondSectionText = () => {
         if (isSecondSec && !isThirdSec && !isFirstSec) {
-            console.log(isOneImg, "isoneeeeeee")
             return isOneImg ? (
                 <div data-aos={isOneImg ? "fade-up" : ""} className="second-text-section">
                     <div className="revision">Revisions</div>
