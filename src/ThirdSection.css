@@ -1,5 +1,5 @@
 .third-heading {
-  font-size: 28px;
+  font-size: 24px;
   align-self: center;
   text-align: left;
   font-weight: 400;
@@ -10,14 +10,14 @@
 .third-content {
   font-size: 15px;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #24236a;
 }
 
 .question-forum {
   font-size: 18px;
   color: #61e8ea;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .third-bottom-half {
@@ -26,17 +26,7 @@
   position: relative;
 }
 
-.third-get-app-button {
-  border-radius: 20px;
-  padding: 10px;
-  background-color: black;
-  cursor: pointer;
-  color: white;
-  width: 70%;
-  text-align: center;
-}
-
-.third-get-app-button:hover {
+.third-3-get-app-button:hover {
   box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s ease-in-out;
 }
@@ -104,6 +94,16 @@
   text-align: left;
 }
 
+.third-3-get-app-button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  width: 55%;
+  text-align: center;
+}
+
 @media only screen and (min-width: 1440px) {
   .third-text-section {
     display: flex;
@@ -154,7 +154,7 @@
   }
 
   .third-heading {
-    font-size: 34px;
+    font-size: 32px;
     align-self: center;
     text-align: left;
     font-weight: 400;
@@ -163,14 +163,14 @@
   }
 
   .third-content {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     margin-bottom: 20px;
     color: #24236a;
   }
 
   .question-forum {
-    font-size: 28px;
+    font-size: 24px;
     color: #61e8ea;
     margin-bottom: 18px;
   }
@@ -220,7 +220,7 @@
   }
 
   .third-heading {
-    font-size: 34px;
+    font-size: 32px;
     align-self: center;
     text-align: left;
     font-weight: 400;
@@ -229,14 +229,14 @@
   }
 
   .third-content {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     margin-bottom: 20px;
     color: #24236a;
   }
 
   .question-forum {
-    font-size: 28px;
+    font-size: 24px;
     color: #61e8ea;
     margin-bottom: 18px;
   }

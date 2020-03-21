@@ -59,7 +59,7 @@ function ThirdSection(props) {
                         <div className="third-content">
                             Ask a question on the forum and get solutions from our subject matter experts
                     </div>
-                        <div onClick={_openPlayStore} className="third-get-app-button">GET THE APP</div>
+                        <div onClick={_openPlayStore} className="third-3-get-app-button">GET THE APP</div>
                     </div>
                 )
         }

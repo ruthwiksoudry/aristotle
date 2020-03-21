@@ -1,18 +1,18 @@
 .revision {
-  font-size: 18px;
+  font-size: 24px;
   color: #1bb0f6;
   margin-bottom: 18px;
 }
 
 .two-top-heading {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
   color: midnightblue;
 }
 
 .two-bottom-heading {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
   color: midnightblue;
@@ -46,7 +46,7 @@
   font-size: 16px;
   color: white;
   padding: 10px;
-  width: 60%;
+  width: 50%;
   text-align: center;
 }
 
@@ -142,7 +142,7 @@
   }
 
   .two-top-heading {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 400;
     margin-bottom: 20px;
     color: midnightblue;
@@ -156,14 +156,20 @@
   }
 
   .two-bottom-body {
-    font-size: 20px;
+    font-size: 18px;
     color: #1f1a52;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .two-top-body {
-    font-size: 20px;
+    font-size: 18px;
     color: #1f1a52;
+  }
+
+  .revision {
+    font-size: 24px;
+    color: #1bb0f6;
+    margin-bottom: 20px;
   }
 }
 
@@ -197,7 +203,7 @@
   }
 
   .two-top-heading {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 400;
     margin-bottom: 20px;
     color: midnightblue;
@@ -211,13 +217,13 @@
   }
 
   .two-bottom-body {
-    font-size: 20px;
+    font-size: 18px;
     color: #1f1a52;
     margin-bottom: 20px;
   }
 
   .two-top-body {
-    font-size: 20px;
+    font-size: 18px;
     color: #1f1a52;
   }
 }

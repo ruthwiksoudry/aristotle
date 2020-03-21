@@ -1,5 +1,5 @@
 .fourth-heading {
-  font-size: 28px;
+  font-size: 24px;
   align-self: center;
   text-align: left;
   font-weight: 400;
@@ -11,7 +11,7 @@
   font-size: 15px;
   align-self: center;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: midnightblue;
 }
 
@@ -27,7 +27,7 @@
   background-color: black;
   cursor: pointer;
   color: white;
-  width: 60%;
+  width: 55%;
   text-align: center;
 }
 
@@ -130,13 +130,13 @@
     position: fixed;
     z-index: 1000;
     top: 29%;
-    width: 29%;
+    width: 25%;
     text-align: left;
-    right: 8%;
+    right: 12%;
   }
 
   .fourth-heading {
-    font-size: 34px;
+    font-size: 32px;
     align-self: center;
     text-align: left;
     font-weight: 400;
@@ -145,15 +145,15 @@
   }
 
   .fourth-content {
-    font-size: 20px;
+    font-size: 18px;
     align-self: center;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: midnightblue;
   }
 
   .challenges {
-    font-size: 28px;
+    font-size: 24px;
     color: #ffcd65;
     margin-bottom: 18px;
   }
@@ -202,7 +202,7 @@
   }
 
   .fourth-heading {
-    font-size: 34px;
+    font-size: 32px;
     align-self: center;
     text-align: left;
     font-weight: 400;
@@ -211,7 +211,7 @@
   }
 
   .fourth-content {
-    font-size: 20px;
+    font-size: 18px;
     align-self: center;
     text-align: left;
     margin-bottom: 20px;
@@ -219,7 +219,7 @@
   }
 
   .challenges {
-    font-size: 28px;
+    font-size: 24px;
     color: #ffcd65;
     margin-bottom: 18px;
   }

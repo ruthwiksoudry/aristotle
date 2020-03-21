@@ -180,7 +180,7 @@ function App(props) {
           <FourthSection isThirdSec={isThirdSec} isFourthSec={isFourthSec} isFifthSec={isFifthSec} />
           <FifthSection isFourthSec={isFourthSec} isFifthSec={isFifthSec} isFooter={isFooter} />
           <Footer isFifthSec={isFifthSec} isFooter={isFooter} />
-          <div className="bottom-div container" />
+          {!isFooter && <div className="bottom-div container" />}
         </div>
       </div>
     </div>
