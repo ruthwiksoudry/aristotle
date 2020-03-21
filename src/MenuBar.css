@@ -24,7 +24,7 @@
 .download-app-wrapper {
   border-radius: 12px;
   border: 1px solid #fc5e44;
-  padding: 7px 15px;
+  padding: 10px 15px 3px 15px;
 }
 
 .download-app-wrapper:hover {
