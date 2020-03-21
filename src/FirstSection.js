@@ -41,7 +41,7 @@ function FirstSection(props) {
     const OneFirstHalfText = () => {
         if (isFirstSec && !isSecondSec) {
             return !isOneImg ? (
-                <div data-aos-duration="2000" data-aos="fade-up"
+                <div data-aos-duration="2000" data-aos="zoom-in"
                     className="one-top-left-part">
                     <div className="smart-search">SMART SEARCH</div>
                     <div className="instant-search">

@@ -18,6 +18,7 @@
   text-align: left;
   font-size: 18px;
   color: black;
+  cursor: pointer;
 }
 
 .smart-search {
@@ -63,8 +64,6 @@
 }
 
 .section-2-img {
-  /* width: 500px;
-  height: 510px; */
   right: 0;
   top: 53%;
   position: absolute;
@@ -80,8 +79,6 @@
   color: #1f1a52;
   position: fixed;
   z-index: 1000;
-  /* top: 43%;
-  width: 25%; */
   top: 56%;
   width: 30%;
   padding-left: 6%;
@@ -92,22 +89,16 @@
 
 @media only screen and (min-width: 1440px) {
   .section-1-img {
-    /* width: 525px;
-  height: 535px; */
     right: 0;
     position: absolute;
-
     width: 650px;
     height: 650px;
   }
 
   .section-2-img {
-    /* width: 500px;
-  height: 510px; */
     right: 0;
     top: 53%;
     position: absolute;
-
     width: 600px;
     height: 600px;
   }
@@ -119,14 +110,11 @@
     color: #1f1a52;
     position: fixed;
     z-index: 1000;
-    /* top: 43%;
-  width: 25%; */
     top: 56%;
     width: 30%;
     padding-left: 6%;
     padding-left: 3%;
     text-align: left;
-    font-family: Rubik;
   }
 }
 

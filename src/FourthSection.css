@@ -25,6 +25,10 @@
   text-align: center;
 }
 
+.fourth-get-app-button:hover {
+  opacity: 0.7;
+}
+
 .four-text-wrapper {
   width: 40%;
   align-self: center;

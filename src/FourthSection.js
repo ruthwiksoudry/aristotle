@@ -45,7 +45,7 @@ function FourthSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div data-aos-duration="2000" data-aos="fade-up" className="fourth-text-section">
+                    <div className="fourth-text-section">
                         <div className="challenges">CHALLENGES</div>
                         <div className="fourth-heading">
                             Here's is the nitro boost you need to catch up with your friends!

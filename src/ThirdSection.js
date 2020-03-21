@@ -50,7 +50,7 @@ function ThirdSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div data-aos-duration="2000" data-aos="fade-up" className="third-text-section">
+                    <div className="third-text-section">
                         <div className="question-forum">FORUM</div>
                         <div className="third-heading">
                             Grab a helping hand from our expert at any hour.

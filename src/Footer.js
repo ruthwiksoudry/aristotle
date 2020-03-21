@@ -9,8 +9,10 @@ function Footer(props) {
 
     return (
         <div id="footer-container" className="footer-container">
-            <div className="footer-title">
-                Achive master and become the hero of you own story.
+            <div className="footer-title-wrapper">
+                <div className="footer-title">
+                    Achive master and become the hero of you own story.
+            </div>
             </div>
             <img className="footer-img" alt="img" src={FooterImg} />
             <div className="download-app">Download the app</div>

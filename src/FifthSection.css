@@ -49,6 +49,10 @@
   text-align: center;
 }
 
+.fifth-get-the-app:hover {
+  opacity: 0.7;
+}
+
 .section-nine-img {
   width: 550px;
   height: 550px;

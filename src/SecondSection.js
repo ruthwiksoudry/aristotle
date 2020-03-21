@@ -37,8 +37,9 @@ function SecondSection(props) {
 
     const secondSectionText = () => {
         if (isSecondSec && !isThirdSec && !isFirstSec) {
+            console.log(isOneImg, "isoneeeeeee")
             return isOneImg ? (
-                <div data-aos-duration="2000" className="second-text-section">
+                <div data-aos={isOneImg ? "fade-up" : ""} className="second-text-section">
                     <div className="revision">Revisions</div>
                     <div className="two-top-heading">
                         Confused about where to begin to revise for your exams?
@@ -48,7 +49,7 @@ function SecondSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div data-aos-duration="2000" data-aos="fade-up" className="second-text-section">
+                    <div data-aos={!isOneImg ? "fade-up" : ""} className="second-text-section">
                         <div className="revision">Revisions</div>
                         <div className="two-bottom-heading">
                             Stay at the top of your game with personalised revisons
