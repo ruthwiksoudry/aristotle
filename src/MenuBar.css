@@ -45,3 +45,22 @@
 .aristotle-logo {
   width: 160px;
 }
+
+/* 
+mobile styles
+*/
+.aristotle-logo-mobile {
+  width: 120px;
+  height: 32px;
+}
+
+.download-app-wrapper-mobile {
+  border-radius: 12px;
+  border: 1px solid #fc5e44;
+  padding: 5px 10px;
+}
+
+.get-the-app-mobile {
+  font-size: 15px;
+  color: #fc5e44;
+}

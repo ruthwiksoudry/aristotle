@@ -89,7 +89,6 @@
   padding-left: 6%;
   padding-left: 3%;
   text-align: left;
-  font-family: Rubik;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -211,4 +210,41 @@
     color: black;
     cursor: pointer;
   }
+}
+
+.section-1-img-mob {
+  width: 100%;
+  height: 380px;
+  position: absolute;
+  left: 0;
+}
+
+.section-2-img-mob {
+  width: 87%;
+  height: 350px;
+  position: absolute;
+  top: 55%;
+  left: 12%;
+}
+
+.mask1-mob {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+  top: 64px;
+  height: 93vh;
+}
+
+.one-top-left-part-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f1a52;
+  position: fixed;
+  z-index: 1000;
+  bottom: 2%;
+  width: 100%;
+  padding: 0 3%;
+  text-align: left;
 }

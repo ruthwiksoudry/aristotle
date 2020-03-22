@@ -9,7 +9,7 @@ import FifthSection from './FifthSection';
 import Footer from './Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { isInterSectionObserverSupported } from "./RouteFunction";
+import { isInterSectionObserverSupported } from "./HelperFunctions";
 
 function App(props) {
 
