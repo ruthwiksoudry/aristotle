@@ -61,11 +61,11 @@ function FourthSection(props) {
     }
 
     const fourthSectionContainerMob = () => {
-        if (isFourthSec && !isThirdSec && !isFifthSec) {
+        if (isFourthSec && !isThirdSec) {
             return isOneImg ? (
-                <div data-aos-duration="2000" className="fourth-text-section-mob">
-                    <div className="challenges">CHALLENGES</div>
-                    <div className="fourth-heading">
+                <div data-aos="fade-up" className="fourth-text-section-mob">
+                    <div className="challenges-mob">CHALLENGES</div>
+                    <div className="fourth-heading-mob">
                         Running against clock, playing catch up with your friends?
                         </div>
                     <div className="fourth-content">
@@ -73,15 +73,15 @@ function FourthSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="fourth-text-section-mob">
-                        <div className="challenges">CHALLENGES</div>
-                        <div className="fourth-heading">
+                    <div className="position-sticky-four">
+                        <div className="challenges-mob">CHALLENGES</div>
+                        <div className="fourth-heading-mob">
                             Here's is the nitro boost you need to catch up with your friends!
                     </div>
                         <div className="fourth-content">
                             Challenge them in a quiz and give them a friendly competition
                     </div>
-                        <div onClick={_openPlayStore} className="fourth-get-app-button">GET THE APP</div>
+                        <div onClick={_openPlayStore} className="fourth-get-app-button-mob">GET THE APP</div>
                     </div>
                 )
         }
@@ -110,8 +110,8 @@ function FourthSection(props) {
                         className="sec-8-img-mob" alt="img" src={SectionEightImg} />
                     <img data-aos-duration="2000" data-aos="fade-up"
                         className="pyramid-img-mob" alt="img" src={PyramidImg} />
+                    {fourthSectionContainerMob()}
                 </div>
-                {fourthSectionContainerMob()}
             </Mobile>
         </>
     );

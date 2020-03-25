@@ -64,12 +64,12 @@ function FifthSection(props) {
     }
 
     const fifthTextSectionMob = () => {
-        if (isFifthSec && !isFourthSec && !isFooter) {
+        if (isFifthSec && !isFourthSec) {
             return isOneImg ? (
-                <div data-aos-duration="2000" data-aos="fade-up"
+                <div data-aos="fade-up"
                     className="fifth-text-section-mob">
-                    <div className="question-forum">FORUM</div>
-                    <div className="third-heading">
+                    <div className="question-forum-mob">FORUM</div>
+                    <div className="third-heading-mob">
                         Nobody around you to answer your doubts and question...
                          </div>
                     <div className="third-content">
@@ -77,15 +77,15 @@ function FifthSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="fifth-text-section-mob">
-                        <div className="question-forum">FORUM</div>
-                        <div className="third-heading">
+                    <div className="position-sticky-five">
+                        <div className="question-forum-mob">FORUM</div>
+                        <div className="third-heading-mob">
                             Grab a helping hand from our expert at any hour.
                     </div>
                         <div className="third-content">
                             Ask a question on the forum and get solutions from our subject matter experts
                     </div>
-                        <div onClick={_openPlayStore} className="third-get-app-button">GET THE APP</div>
+                        <div onClick={_openPlayStore} className="third-get-app-button-mob">GET THE APP</div>
                     </div>
                 )
         }

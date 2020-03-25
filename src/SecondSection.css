@@ -93,6 +93,7 @@
 
 .mask2 {
   position: sticky;
+  position: -webkit-sticky;
   width: 100%;
   top: 64px;
   z-index: 100;
@@ -249,7 +250,7 @@
   position: fixed;
   z-index: 1000;
   right: 0;
-  top: 47%;
+  top: 36%;
 }
 
 .mask2-mob {
@@ -267,8 +268,53 @@
   color: #1f1a52;
   position: fixed;
   z-index: 1000;
-  bottom: 2%;
+  bottom: 6%;
   width: 100%;
-  padding: 0 2%;
+  padding: 0 6%;
   text-align: left;
+}
+
+.position-sticky-two {
+  display: flex;
+  flex-direction: column;
+  color: #1f1a52;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 100;
+  top: 63%;
+  width: 100%;
+  padding: 6%;
+  text-align: left;
+}
+
+.revision-mob {
+  font-size: 20px;
+  color: #1bb0f6;
+  margin-bottom: 15px;
+}
+
+.two-bottom-heading-mob {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: midnightblue;
+}
+
+.two-top-heading-mob {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: midnightblue;
+}
+
+.second-get-the-app-mob {
+  background-color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  align-self: center;
 }

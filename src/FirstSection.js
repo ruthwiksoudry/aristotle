@@ -68,30 +68,28 @@ function FirstSection(props) {
     }
 
     const OneFirstHalfTextMob = () => {
-        if (isFirstSec && !isSecondSec) {
-            return !isOneImg ? (
-                <div data-aos-duration="2000" data-aos="fade-up"
-                    className="one-top-left-part-mob">
-                    <div className="smart-search">SMART SEARCH</div>
-                    <div className="instant-search">
-                        Shed some light with our instant search
-                    </div>
-                    <div className="try-it">
-                        Scan any question from your  textbook for step-by-step solutions
-                    </div>
-                    <div onClick={_openPlayStore} className="get-app-button">
-                        GET THE APP
+        if (isFirstSec) {
+            return isOneImg ? (
+                <div data-aos="fade-up" className="one-top-left-part-mob">
+                    <div className="instant-search-mob">In the dark about how to your exam?</div>
+                    <div className="smart-search">
+                        We've have all been there...Explore the aristotle app to find out how
+                         </div>
+                    <div onClick={clicKHandler} className="find-out-how">
+                        <div>EXPLORE</div>
                     </div>
                 </div>
             ) : (
-                    <div data-aos-duration="2000" data-aos="fade-up"
-                        className="one-top-left-part-mob">
-                        <div className="instant-search">In the dark about how to your exam?</div>
-                        <div className="smart-search">
-                            We've have all been there...Explore the aristotle app to find out how
-                         </div>
-                        <div onClick={clicKHandler} className="find-out-how">
-                            <div>EXPLORE</div>
+                    <div className="position-sticky-one">
+                        <div className="smart-search">SMART SEARCH</div>
+                        <div className="instant-search-mob">
+                            Shed some light with our instant search
+                        </div>
+                        <div className="try-it-mob">
+                            Scan any question from your  textbook for step-by-step solutions
+                        </div>
+                        <div onClick={_openPlayStore} className="get-app-button-mob">
+                            GET THE APP
                         </div>
                     </div>
                 )

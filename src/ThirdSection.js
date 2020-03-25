@@ -40,7 +40,6 @@ function ThirdSection(props) {
 
     const ThirdSectionText = () => {
         if (isThirdSec && !isFourthSec && !isSecondSec) {
-            console.log()
             return isOneImg ? (
                 <div data-aos="fade-up" className="third-text-section">
                     <div className="question-forum">FORUM</div>
@@ -61,19 +60,18 @@ function ThirdSection(props) {
                         <div className="third-content">
                             Ask a question on the forum and get solutions from our subject matter experts
                     </div>
-                        <div onClick={_openPlayStore} className="third-3-get-app-button">GET THE APP</div>
+                        <div onClick={_openPlayStore} className="third-3-get-app-button-mob">GET THE APP</div>
                     </div>
                 )
         }
     }
 
     const ThirdSectionTextMobile = () => {
-        if (isThirdSec && !isFourthSec && !isSecondSec) {
-            console.log()
+        if (isThirdSec && !isSecondSec) {
             return isOneImg ? (
                 <div data-aos="fade-up" className="third-text-section-mob">
-                    <div className="question-forum">FORUM</div>
-                    <div className="third-heading">
+                    <div className="question-forum-mob">FORUM</div>
+                    <div className="third-heading-mob">
                         Nobody around you to answer your doubts and question...
                          </div>
                     <div className="third-content">
@@ -82,9 +80,9 @@ function ThirdSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="third-text-section-mob">
-                        <div className="question-forum">FORUM</div>
-                        <div className="third-heading">
+                    <div data-aos="fade-up" className="position-sticky-three">
+                        <div className="question-forum-mob">FORUM</div>
+                        <div className="third-heading-mob">
                             Grab a helping hand from our expert at any hour.
                     </div>
                         <div className="third-content">
@@ -123,8 +121,8 @@ function ThirdSection(props) {
                         className="kid-out-box-img-mob" alt="img" src={KidOutBoxImg} />
                     {!isOneImg && <img data-aos-duration="2000"
                         data-aos="fade-up" className="hand-img-mob" alt="img" src={HandsImg} />}
+                    {ThirdSectionTextMobile()}
                 </div>
-                {ThirdSectionTextMobile()}
             </Mobile>
         </>
 

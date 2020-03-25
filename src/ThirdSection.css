@@ -75,6 +75,7 @@
 
 .mask3 {
   position: sticky;
+  position: -webkit-sticky;
   width: 100%;
   top: 64px;
   z-index: 100;
@@ -260,11 +261,11 @@
 }
 
 .sec-5-img-mob {
-  width: 59%;
+  width: 53%;
   position: absolute;
-  height: 200px;
+  height: 157px;
   left: -18%;
-  top: 23%;
+  top: 19%;
   z-index: 100;
 }
 
@@ -291,8 +292,48 @@
   color: #1f1a52;
   position: fixed;
   z-index: 1000;
-  bottom: 2%;
+  bottom: 6%;
   width: 100%;
-  padding: 0 3%;
+  padding: 0 6%;
   text-align: left;
+}
+
+.position-sticky-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f1a52;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 100;
+  top: 63%;
+  width: 100%;
+  padding: 6%;
+  text-align: left;
+}
+
+.third-heading-mob {
+  font-size: 22px;
+  align-self: center;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #24236a;
+}
+
+.question-forum-mob {
+  font-size: 20px;
+  color: #61e8ea;
+  margin-bottom: 15px;
+}
+
+.third-3-get-app-button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  width: 90%;
+  text-align: center;
+  align-self: center;
 }

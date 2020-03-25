@@ -67,11 +67,11 @@ function SecondSection(props) {
     }
 
     const secondSectionTextMob = () => {
-        if (isSecondSec && !isThirdSec && !isFirstSec) {
+        if (isSecondSec && !isFirstSec) {
             return isOneImg ? (
                 <div data-aos="fade-up" className="second-text-section-mob">
-                    <div className="revision">Revisions</div>
-                    <div className="two-top-heading">
+                    <div className="revision-mob">Revisions</div>
+                    <div className="two-top-heading-mob">
                         Confused about where to begin to revise for your exams?
                     </div>
                     <div id="text-div" className="two-top-body">
@@ -79,15 +79,15 @@ function SecondSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div data-aos="fade-up" className="second-text-section-mob">
-                        <div className="revision">Revisions</div>
-                        <div className="two-bottom-heading">
+                    <div className="position-sticky-two">
+                        <div className="revision-mob">Revisions</div>
+                        <div className="two-bottom-heading-mob">
                             Stay at the top of your game with personalised revisons
                           </div>
                         <div className="two-bottom-body">
                             Improve in just 10-15min with the best learning tools at your finger tips
                          </div>
-                        <div className="second-get-the-app" onClick={_openPlayStore}>
+                        <div className="second-get-the-app-mob" onClick={_openPlayStore}>
                             GET THE APP
                         </div>
                     </div>

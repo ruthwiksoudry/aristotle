@@ -119,6 +119,7 @@
 
 .mask5 {
   position: sticky;
+  position: -webkit-sticky;
   width: 100%;
   top: 64px;
   z-index: 100;
@@ -300,6 +301,7 @@
   width: 100%;
   position: -webkit-sticky;
   position: sticky;
+  position: -webkit-sticky;
   z-index: 100;
   top: 64px;
   height: 93vh;
@@ -314,19 +316,19 @@
 }
 
 .phone-two-img-mob {
-  width: 100%;
-  height: 400px;
+  width: 90%;
+  height: 350px;
   position: absolute;
   left: 0;
-  top: 53%;
+  top: 55%;
 }
 
 .sec-10-asset-mob {
-  width: 35%;
+  width: 31%;
   position: absolute;
-  height: 110px;
+  height: 104px;
   right: 54%;
-  top: 73%;
+  top: 71%;
   z-index: 100;
 }
 
@@ -337,8 +339,48 @@
   color: #1f1a52;
   position: fixed;
   z-index: 1000;
-  bottom: 2%;
+  bottom: 6%;
   width: 100%;
-  padding: 0 2%;
+  padding: 0 6%;
   text-align: left;
+}
+
+.position-sticky-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f1a52;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 100;
+  top: 63%;
+  width: 100%;
+  padding: 6%;
+  text-align: left;
+}
+
+.question-forum-mob {
+  font-size: 20px;
+  color: #61e8ea;
+  margin-bottom: 15px;
+}
+
+.third-heading-mob {
+  font-size: 22px;
+  align-self: center;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #24236a;
+}
+
+.third-get-app-button-mob {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  width: 90%;
+  text-align: center;
+  align-self: center;
 }
