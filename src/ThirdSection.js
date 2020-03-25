@@ -67,7 +67,7 @@ function ThirdSection(props) {
     }
 
     const ThirdSectionTextMobile = () => {
-        if (isThirdSec && !isSecondSec) {
+        if (isThirdSec && !isFourthSec && !isSecondSec) {
             return isOneImg ? (
                 <div data-aos="fade-up" className="third-text-section-mob">
                     <div className="question-forum-mob">FORUM</div>
@@ -80,7 +80,7 @@ function ThirdSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div data-aos="fade-up" className="position-sticky-three">
+                    <div data-aos="fade-up" className="third-text-section-mob">
                         <div className="question-forum-mob">FORUM</div>
                         <div className="third-heading-mob">
                             Grab a helping hand from our expert at any hour.

@@ -67,7 +67,7 @@ function SecondSection(props) {
     }
 
     const secondSectionTextMob = () => {
-        if (isSecondSec && !isFirstSec) {
+        if (isSecondSec && !isThirdSec && !isFirstSec) {
             return isOneImg ? (
                 <div data-aos="fade-up" className="second-text-section-mob">
                     <div className="revision-mob">Revisions</div>
@@ -79,7 +79,7 @@ function SecondSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="position-sticky-two">
+                    <div className="second-text-section-mob">
                         <div className="revision-mob">Revisions</div>
                         <div className="two-bottom-heading-mob">
                             Stay at the top of your game with personalised revisons
