@@ -70,7 +70,7 @@ function FirstSection(props) {
     const OneFirstHalfTextMob = () => {
         if (isFirstSec) {
             return isOneImg ? (
-                <div data-aos="fade-up" className="one-top-left-part-mob">
+                <div className="one-top-left-part-mob">
                     <div className="instant-search-mob">In the dark about how to your exam?</div>
                     <div className="smart-search">
                         We've have all been there...Explore the aristotle app to find out how
