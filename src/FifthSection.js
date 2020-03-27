@@ -64,7 +64,7 @@ function FifthSection(props) {
     }
 
     const fifthTextSectionMob = () => {
-        if (isFifthSec && !isFourthSec && !isFooter) {
+        if (isFifthSec && !isFourthSec) {
             return isOneImg ? (
                 <div data-aos="fade-up"
                     className="fifth-text-section-mob">
@@ -77,7 +77,7 @@ function FifthSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="fifth-text-section-mob">
+                    <div className="position-sticky-five">
                         <div className="question-forum-mob">FORUM</div>
                         <div className="third-heading-mob">
                             Grab a helping hand from our expert at any hour.

@@ -19,6 +19,7 @@
 .menubar-right {
   display: flex;
   cursor: pointer;
+  height: 45px;
 }
 
 .download-app-wrapper {
@@ -44,6 +45,7 @@
 
 .aristotle-logo {
   width: 160px;
+  height: 45px;
 }
 
 /* 

@@ -61,7 +61,7 @@ function FourthSection(props) {
     }
 
     const fourthSectionContainerMob = () => {
-        if (isFourthSec && !isThirdSec && !isFifthSec) {
+        if (isFourthSec && !isThirdSec) {
             return isOneImg ? (
                 <div data-aos="fade-up" className="fourth-text-section-mob">
                     <div className="challenges-mob">CHALLENGES</div>
@@ -73,7 +73,7 @@ function FourthSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="fourth-text-section-mob">
+                    <div className="position-sticky-four">
                         <div className="challenges-mob">CHALLENGES</div>
                         <div className="fourth-heading-mob">
                             Here's is the nitro boost you need to catch up with your friends!

@@ -68,7 +68,7 @@ function FirstSection(props) {
     }
 
     const OneFirstHalfTextMob = () => {
-        if (isFirstSec && !isSecondSec) {
+        if (isFirstSec) {
             return isOneImg ? (
                 <div data-aos="fade-up" className="one-top-left-part-mob">
                     <div className="instant-search-mob">In the dark about how to your exam?</div>
@@ -80,7 +80,7 @@ function FirstSection(props) {
                     </div>
                 </div>
             ) : (
-                    <div className="one-top-left-part-mob">
+                    <div className="position-sticky-one">
                         <div className="smart-search">SMART SEARCH</div>
                         <div className="instant-search-mob">
                             Shed some light with our instant search
