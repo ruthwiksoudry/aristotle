@@ -30,7 +30,7 @@ function SecondSection(props) {
                 }
             },
             {
-                threshold: 0.1
+                threshold: 0
             }
         );
         observerOne.observe(targetOne);
