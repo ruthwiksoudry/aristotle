@@ -122,28 +122,14 @@ function FirstSection(props) {
                         src={SectonTwoBoyImg} />
                     {/* {OneFirstHalfTextMob()} */}
                     {isOneImg ? (
-                        <>
-                            <div className="instant-search-mob position-sticky-one">In the dark about how to your exam?</div>
-                            <div className="smart-search">
-                                We've have all been there...Explore the aristotle app to find out how
-                         </div>
-                            <div onClick={clicKHandler} className="find-out-how">
-                                <div>EXPLORE</div>
-                            </div>
-                        </>
+                        <div className="instant-search-mob position-sticky-one">
+                            In the dark about how to your exam?
+                        </div>
                     ) : (
-                            <>
-                                <div className="smart-search position-sticky-one">SMART SEARCH</div>
-                                <div className="instant-search-mob">
-                                    Shed some light with our instant search
-                        </div>
-                                <div className="try-it-mob">
-                                    Scan any question from your  textbook for step-by-step solutions
-                        </div>
-                                <div onClick={_openPlayStore} className="get-app-button-mob">
-                                    GET THE APP
-                        </div>
-                            </>
+                            <div className="smart-search position-sticky-one">
+                                SMART SEARCH
+                            </div>
+
                         )}
                 </div>
             </Mobile>
