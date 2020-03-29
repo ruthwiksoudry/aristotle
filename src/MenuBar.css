@@ -60,6 +60,7 @@ mobile styles
   border-radius: 12px;
   border: 1px solid #fc5e44;
   padding: 5px 10px;
+  height: fit-content;
 }
 
 .get-the-app-mobile {
