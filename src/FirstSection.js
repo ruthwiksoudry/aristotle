@@ -120,17 +120,7 @@ function FirstSection(props) {
                         src={SectionOneImg} />
                     <img id="section-2-img" className="section-2-img-mob" alt="img"
                         src={SectonTwoBoyImg} />
-                    {/* {OneFirstHalfTextMob()} */}
-                    {isOneImg ? (
-                        <div className="instant-search-mob position-sticky-one">
-                            In the dark about how to your exam?
-                        </div>
-                    ) : (
-                            <div className="smart-search position-sticky-one">
-                                SMART SEARCH
-                            </div>
-
-                        )}
+                    {OneFirstHalfTextMob()}
                 </div>
             </Mobile>
         </>
