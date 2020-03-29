@@ -257,9 +257,11 @@
   justify-content: center;
   color: #1f1a52;
   position: sticky;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
+  position: absolute;
+  bottom: 4%;
   z-index: 100;
-  top: 63%;
+  /* top: 63%; */
   width: 100%;
   padding: 5% 6%;
   text-align: left;

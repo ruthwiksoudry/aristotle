@@ -279,8 +279,8 @@
   flex-direction: column;
   color: #1f1a52;
   position: absolute;
+  bottom: 4%;
   z-index: 100;
-  bottom: 6%;
   width: 100%;
   padding: 6%;
   text-align: left;
