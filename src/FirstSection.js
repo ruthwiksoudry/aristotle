@@ -120,7 +120,7 @@ function FirstSection(props) {
                         src={SectionOneImg} />
                     <img id="section-2-img" className="section-2-img-mob" alt="img"
                         src={SectonTwoBoyImg} />
-                    {OneFirstHalfTextMob()}
+                    {/* {OneFirstHalfTextMob()} */}
                 </div>
             </Mobile>
         </>
