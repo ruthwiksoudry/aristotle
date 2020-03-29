@@ -69,7 +69,7 @@ function SecondSection(props) {
     const secondSectionTextMob = () => {
         if (isSecondSec && !isFirstSec) {
             return isOneImg ? (
-                <div data-aos="fade-up" className="second-text-section-mob">
+                <div className="second-text-section-mob">
                     <div className="revision-mob">Revisions</div>
                     <div className="two-top-heading-mob">
                         Confused about where to begin to revise for your exams?

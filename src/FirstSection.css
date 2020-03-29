@@ -88,7 +88,6 @@
   top: 56%;
   width: 30%;
   padding-left: 6%;
-  padding-left: 3%;
   text-align: left;
 }
 
@@ -245,7 +244,7 @@
   color: #1f1a52;
   position: fixed;
   z-index: 100;
-  bottom: 6%;
+  bottom: 10%;
   width: 100%;
   padding: 0 6%;
   text-align: left;
